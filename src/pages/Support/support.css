@@ -1,0 +1,52 @@
+/* .para{
+    text-align: center;
+} */
+.text-center{
+    text-align: center;
+}
+.pt-3{
+    padding-top: 2rem;
+}
+.py-5{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.pt-5{
+    padding-top: 4rem;
+}
+
+
+
+  .SupportUs h1{
+    background: #03bdbe;
+    width: 188px;
+    text-align: center;
+    font-family: "Optima" !important;
+    font-weight: bold;
+    letter-spacing: 0px;
+    font-size: 28px;
+    border-bottom: 5px solid #ebaa01;
+    margin: auto;
+    color: white;
+    padding: 0.2rem 0.5rem;
+
+  }
+
+  .SupportUs{
+    padding: 1rem 1rem 1rem;
+    position: relative;
+    overflow-x: hidden;
+  }
+
+
+
+  /* //MOBILE PHONE MEDIA QUERY CSS */
+/* //MOBILE PHONE MEDIA QUERY CSS */
+
+@media (max-width: 900px) and (min-width: 200px) {
+  .economic-policy .banner, .icprdVerticalPage .banner {
+    height: 20vh;
+}
+}
+/* //MOBILE PHONE MEDIA QUERY CSS */
+/* //MOBILE PHONE MEDIA QUERY CSS */

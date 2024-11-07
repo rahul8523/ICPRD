@@ -1,0 +1,81 @@
+.icprdVerticals {
+    position: relative;
+    overflow-x: hidden;
+  }
+  
+  .icprdVerticals > span {
+    position: absolute;
+    opacity: 0.078;
+    font-size: 18vw;
+    top: -6rem;
+    left: 18rem;
+    /* line-height: 81px; */
+    color: #032648;
+    font-weight: bold;
+    font-family: "Neusharp Bold";
+    text-transform: uppercase;
+  }
+  
+  .icprdVerticals h1 {
+    background: #03bdbe;
+    width: 255px;
+    text-align: center;
+    font-family: "Optima" !important;
+    font-weight: bold;
+    letter-spacing: 0px;
+    font-size: 28px;
+    border-bottom: 5px solid #ebaa01;
+    margin: auto;
+    color: white;
+    padding: 0.2rem 0.5rem;
+  }
+  .icprdVerticals > p {
+    color: #382224;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  
+  .vertical-card-container {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: auto;
+  }
+ 
+  /* Further adjustments for even smaller screens if needed */
+  @media screen and (max-width: 2560px) {
+  .vertical-card-container{
+    /* max-width: 1200px; */
+    max-width: 2000px;
+    margin: 0rem auto;
+    gap: 1rem;
+  }
+ 
+      
+  }
+
+  @media (min-width: 1700px) and (max-width:1800px) {
+    .vertical-card-container{
+      /* max-width: 1200px; */
+      max-width: 1700px;
+      margin: 0rem auto;
+      gap: 1rem;
+    }
+  }
+  @media  (max-width:1700px) {
+    .vertical-card-container{
+      max-width: 1200px;
+      
+      
+      
+    }
+  }
+  
+@media screen and (max-width:1000px) {
+  .icprdVerticals > span {
+    top: -2rem;
+  }
+}

@@ -1,0 +1,111 @@
+.featureCard {
+    position: relative;
+    width: 18vw;
+    /* height: 600px; */
+    background-color: rgb(2, 2, 2);
+  }
+  .features .carousel-dot {
+    display: block;
+  }
+
+  .featuresContainer label{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    cursor: pointer;
+    transition: transform 0.55s ease;
+  }
+  
+  .featureCard img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .feature-card-content {
+   /* Semi-transparent background for text */
+   position: absolute;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   gap: 0rem;
+   height: 43%;
+   bottom: 70px;
+   padding: 0rem 1rem;
+   text-align: left;
+   color: #fff;
+  }
+  hr {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+
+}
+  .feature-card-content > hr{
+      width: 35%;
+      border: 2px solid;
+      height: 3px;
+      color:  #ebaa01;;
+      background-color: #ebaa01;
+  }
+  
+  .feature-card-heading {
+      /* width: min-content; */
+      font-size: 20px;
+    font-family: "Optima";
+    line-height: 2rem;
+    white-space: pre-wrap; /* Preserve whitespace */
+    word-wrap: break-word; /* Allow breaking of words */
+    margin: 0;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+  }
+  
+  .feature-card-text {
+    font-size: 15px;
+    line-height: 20px;
+    margin: 0;
+    padding-top: 5px;
+    padding-bottom: 10px;
+  }
+  
+  @media (max-width:2150px) and (min-width:2000px){
+    .feature-card-text{
+      font-size: 0.6rem;
+    }
+  }
+
+  @media (max-width:1800px) and (min-width:1200px){
+    .feature-card-content {
+
+      height: 17%;
+  }
+
+  .featureCard {
+    width: 24vw;
+}
+
+.featuresContainer {
+  height: 34vw;
+
+}
+
+  }
+  @media (max-width:1550px) and (min-width:1400px){
+    .feature-card-text{
+      font-size: 0.6rem;
+    }
+  }
+  /* Active Card */
+  /* .feature-card.active {
+  
+    z-index: 2;
+    background-color: rgb(2, 2, 2);
+  }
+   */
+  
+  /* .featureCard.active-dot{
+    background-color: rgb(20, 20, 20);
+  }
+  
+   */
+  

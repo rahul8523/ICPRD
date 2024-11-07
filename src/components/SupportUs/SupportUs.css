@@ -1,0 +1,71 @@
+.footerVerticals{
+    width: 100vw;
+  }
+  .footerVerticals > div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0rem;
+    padding: 0.5rem 5rem;
+  }
+  
+  .supportUs {
+    background-image: url('../../assets/images/backevent.jpg');
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: auto;
+  }
+  
+  .supportUs > div {
+    max-width: 39%;
+    color: #382224;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+  }
+  
+  article {
+    text-wrap: nowrap;
+    color: #900000;
+    font-weight: bold;
+  }
+  
+  article > h1 {
+    font-size: 2rem;
+    font-family: "Neusharp Bold";
+  }
+  
+  .supportUs button {
+    padding: 0.2rem 1.5rem;
+    text-wrap: nowrap;
+    border: none;
+    color: #fff;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    font-family: "Helvetica Now Display", "sans-serif";
+    font-weight: 600;
+    border-radius: 16px;
+    background-color: #900000;
+    margin-top: 5px;
+  }
+  
+  
+  .whoWeAre{
+      background-color: #020202;
+  }
+  
+  .whoWeAre article{
+      color: #ffffff;
+  }
+  
+  .whoWeAre > div{
+      color: white;
+      max-width: 39%;
+      font-weight: 600;
+      letter-spacing: 0.3px;
+      line-height: 1.5rem;
+  }
+  .whoWeAre{
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+  }

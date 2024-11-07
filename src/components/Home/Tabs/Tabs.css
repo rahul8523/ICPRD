@@ -1,0 +1,335 @@
+/* TabComponent.css */
+
+/* Container for the entire component */
+.tab-component {
+  margin: 0rem 0rem 0rem;
+  overflow: hidden;
+  background: #ebeef1;
+  padding: 1rem 0rem 0rem;
+}
+
+/* Tabs container */
+.tabs {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  margin-bottom: 30px;
+}
+
+/* Individual tab button */
+.tab-button {
+  border: none;
+  background: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  outline: none;
+  /* width: 12.48%; */
+  display: block;
+
+}
+.articlss{
+  float:left;
+}
+.articls{
+  float:right;
+}
+
+.aticalesm{
+  line-height: 30px;
+  background: #03bdbe;
+  width: 170px;
+  text-align: center;
+  font-family: "Optima" !important;
+  font-weight: bold;
+  letter-spacing: 0px;
+  font-size: 28px;
+  /* border-bottom: 5px solid #ebaa01; */
+  margin: auto;
+  color: white;
+  padding: 0.2rem 0.5rem;
+}
+/* Styling for the active tab button */
+.tab-button.active {
+  border-bottom: 5px solid #ebaa01;
+}
+
+/* Container for the card list */
+.card-list {
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem;
+  gap: 20px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  /* overflow: hidden; */
+  transition: transform 0.3s ease-in-out;
+  height: 30vw;
+  width: 27vw;
+}
+
+/* Individual card styling */
+.tab-component .content-wrapper .card {
+  /* flex: 1; */
+  height:45vh;
+  padding: 20px;
+  border-radius: 10px;
+  /* filter: drop-shadow(0 0 54.5px rgba(214, 214, 214, 0.45)); */
+  background-color: #ffffff;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  position: absolute;
+  width: 27vw;
+  transition: transform 0.55s ease;
+  min-width: 300px;
+  display: flex;
+    justify-content: space-evenly;
+}
+
+/* Card title */
+.card h3 {
+  font-size: 1.5rem;
+  margin: 0;
+  font-weight: bold;
+  color: black;
+}
+
+/* Card content */
+.card p {
+  font-size: 15px;
+  margin: 10px 0;
+  color: black;
+}
+
+.card-hr {
+  border: none;
+  height: 2px;
+  width: 30%;
+  background-color: #ebaa01;
+  margin: 0.5rem 0;
+}
+
+.article-card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-top: 0rem;
+}
+.article-card-footer small {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.article-card-footer a {
+  font-weight: bold;
+  color: #032648;
+  margin-bottom: 0.2rem;
+  font-size: 12px;
+  border-bottom: 2px solid #032648;
+}
+
+.content-wrapper {
+  justify-content: center;
+  margin: 0rem 6rem;
+  width: calc(100vw - 12rem);
+  overflow: hidden;
+  display: flex;
+  background-color: #ebeef1;
+
+  position: relative;
+}
+@media screen and (min-width: 2500px) {
+  /* Card title */
+  .card h3 {
+    font-size: 2rem;
+    margin: 0;
+  }
+
+  /* Card content */
+  .card p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+  }
+}
+
+@media screen and (max-width: 2500px) {
+  /* Card title */
+  .card h3 {
+    font-size: 1.7rem;
+    margin: 0;
+  }
+
+  /* Card content */
+  .card p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+  }
+}
+@media screen and (max-width: 2200px) {
+  /* Card title */
+  .card h3 {
+    font-size: 1.5rem;
+    margin: 0;
+  }
+
+  /* Card content */
+  .card p {
+    font-size: 1.1rem;
+    margin: 10px 0;
+  }
+}
+#t0:checked ~ .card-list #tabCard0,
+#t1:checked ~ .card-list #tabCard1,
+#t2:checked ~ .card-list #tabCard2 {
+  transform: translate3d(0, 0, 0);
+}
+#t0:checked ~ .card-list #tabCard1,
+#t1:checked ~ .card-list #tabCard2,
+#t2:checked ~ .card-list #tabCard1 {
+  transform: translate3d(105%, 0, 0px);
+}
+#t0:checked ~ .card-list #tabCard2,
+#t1:checked ~ .card-list #tabCard0,
+#t2:checked ~ .card-list #tabCard0 {
+  transform: translate3d(-105%, 0, 0px);
+}
+@media screen and (max-width: 1999px) {
+  /* Card title */
+  .card h3 {
+    font-size: 25px;
+    margin: 0;
+  }
+
+  /* Card content */
+  .card p {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+}
+.article-card-footer h4{
+  font-size: 16px;
+  margin-bottom: 0px;
+}
+@media screen and (max-width: 1650px) {
+  .card {
+    height: unset;
+  }
+  /* Card title */
+  .card h3 {
+    font-size: 20px;
+    margin: 0;
+  }
+
+  /* Card content */
+  .card p {
+    font-size: 14px;
+    margin: 10px 0;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .content-wrapper {
+    margin: 0rem auto;
+    overflow: visible;
+    justify-content: center;
+  }
+
+  .aticalesm {
+    width: 90px;
+    font-size: 16px;
+
+}
+}
+
+@media screen and (max-width: 2350px) {
+  .tab-component .card-list {
+    height: 22vw;
+  }
+}
+@media screen and (max-width: 1865px) {
+  .tab-component .card-list {
+    height: 25vw;
+  }
+}
+@media screen and (max-width: 1700px) {
+  .tab-component .card-list {
+    height: 48vw;
+  }
+}
+@media screen and (max-width: 1650px) {
+  .tab-component .card-list {
+    height: 25vw;
+  }
+}
+
+@media screen and (max-width:1500px) {
+  .tab-component .card-list {
+    height: 33vw;
+  }
+}
+
+@media screen and (max-width:1400px) {
+  .tab-component .card-list {
+    height: 27vw;
+  }
+}
+@media screen and (max-width:1300px) {
+  .tab-component .card-list {
+    height: 22vw;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .tab-component .card-list {
+    height: 50vw;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .tab-component .card-list {
+    height: 60vw;
+  }
+}
+@media screen and (max-width: 900px) {
+  .tab-component .card-list {
+    height: 550px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .tab-component .card-list {
+    height: 500px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .tab-component .card-list {
+    height: 300px;
+  }
+}
+/* @media screen and (max-width: 1000px) {
+    .icprdEvents .event-section {     
+        height: 600px;
+      }
+    }
+    @media screen and (max-width: 700px) {
+        .icprdEvents .event-section {     
+            height: 500px;
+          }
+        }
+        @media screen and (max-width: 700px) {
+            .icprdEvents .event-section {     
+                height: 400px;
+              }
+            } */
+.domrt{
+  margin-top: 25px;
+}
+
+
+
+  /* //MOBILE PHONE MEDIA QUERY CSS */
+/* //MOBILE PHONE MEDIA QUERY CSS */
+
+@media (max-width: 900px) and (min-width: 200px) {
+  .tab-component .content-wrapper .card {
+    height: 35vh;
+  
+  }
+  }
+  
+    /* //MOBILE PHONE MEDIA QUERY CSS */
+  /* //MOBILE PHONE MEDIA QUERY CSS */

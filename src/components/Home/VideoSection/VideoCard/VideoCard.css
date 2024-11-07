@@ -1,0 +1,111 @@
+/* Individual card styling */
+.video-card {
+  flex: 1 1;
+  margin-top: 1rem;
+  padding: 0rem;
+  border-radius: 10px;
+  /* filter: drop-shadow(0 0 54.5px rgba(214,214,214,0.45)); */
+  background-color: #ffffff;
+  min-width: 300px;
+  width: 20vw;
+  position: absolute;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  }
+  
+  .video-thumbnail {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .video-thumbnail iframe {
+    height: 100%;
+  }
+
+  /* Card title */
+  .card-body h3 {
+    font-size: 0.9rem;
+    margin: 0;
+    text-align: left;
+  }
+  .card-body {
+    padding: 0px;
+}
+  .card-hr {
+    border: none;
+    height: 6px;
+    width: 30%;
+    background-color: #ebaa01;
+    margin: 0rem 0;
+  }
+  
+  /* .video-thumbnail {
+      position: relative;
+    } */
+  
+  /* Default style for the iframe */
+  iframe {
+    width: 100%; /* Set a default width, for example, to fill its container */
+    height: auto; /* Allow the height to adjust proportionally */
+    border-radius: 20px 20px 0px 0px;
+  }
+  
+  /* Media query for screens with a maximum width of 600px */
+  @media (min-width: 1300px) {
+    .video-card {
+      height: 19vw;;
+    }
+    .video-thumbnail {
+      height: 70%;
+    }
+  }
+  /* Media query for screens with a maximum width of 600px */
+  @media (max-width: 600px) {
+    iframe {
+      width: 100%; /* Change the width for smaller screens */
+    }
+  }
+  @media screen and (min-width: 2110px) {
+       
+    .videoSection .card-body h3{
+      font-size: 18px;
+      padding: 15px 30px;
+    }
+   }
+   @media (min-width: 1600px)  and (max-width: 2110px) {
+       
+    .videoSection .card-body h3{
+      font-size: 18px;
+      padding: 15px 30px;
+    }
+   }
+  /* Media query for screens with a minimum width of 601px and a maximum width of 1200px */
+  
+  @media (min-width: 1000px)  and (max-width:1599px) {
+    .videoSection .card-body h3 {
+      font-size: 12px;
+      padding: 9px 12px;
+}
+.videoSection .video-card-list {
+  height: 25vw;
+
+}
+   }
+  /* Add more media queries as needed for different screen sizes */
+  
+
+
+  /* //MOBILE PHONE MEDIA QUERY CSS */
+/* //MOBILE PHONE MEDIA QUERY CSS */
+
+@media (max-width: 900px) and (min-width: 200px) {
+  .card-body {
+    padding: 20px;
+}
+  }
+  
+    /* //MOBILE PHONE MEDIA QUERY CSS */
+  /* //MOBILE PHONE MEDIA QUERY CSS */
+
+

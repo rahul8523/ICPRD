@@ -1,0 +1,29 @@
+.aboutSe h2 span {
+    color: yellow;
+    letter-spacing: 0px;
+}
+.font-text{
+    font-size: 4rem;
+    margin:0;
+    line-height:2rem;
+}
+.aboutSe span{
+
+    color: #ebaa01;
+    font-size: 36px;
+}
+.aboutSe h1{
+color:black;
+font-weight: 700;
+}
+.boardss{
+    border-left: 1px solid #ebaa01;
+ 
+}
+.fw-bold{
+    font-weight:bold;
+}
+
+
+
+

@@ -1,0 +1,63 @@
+/* CSS for the HeaderWithLetter component */
+.header-with-letter {
+    background-color: #fffbf2;
+    text-align: center;
+    padding: 20px;
+    font-family: "Optima";
+  }
+  
+  .header-with-letter h3 {
+    font-size: 35px;
+    font-weight: bold;
+  }
+  
+  .header-with-letter h2 span {
+    color: #f2c153;
+    font-size: 2rem;
+    font-weight: 600;
+  }
+  
+  .letterFromPresident {
+    font-size: 1.3rem;
+    text-align: left;
+    line-height: 1.5rem;
+    padding: 3rem 6rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+  
+  .letterFromPresident b {
+    font-size: 1.5rem;
+    font-weight: bolder;
+    line-height: 1.7rem;
+  }
+  
+  .header-with-letter h2 {
+    font-size: 3rem;
+    font-weight: 900;
+  }
+  
+  .header-with-letter img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  @media screen and (max-width: 1000px) {
+    .letterFromPresident {
+      padding: 3rem 1rem;
+    }
+  }
+  
+  @media screen and (max-width: 450px) {
+    .letterFromPresident {
+      padding: 3rem 0rem;
+    }
+    .header-with-letter h2 {
+      font-size: 2rem;
+    }
+    .header-with-letter h3 {
+      font-size: 1.5rem;
+      font-weight: 900;
+    }
+  }
+  

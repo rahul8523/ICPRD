@@ -1,0 +1,168 @@
+.icprdEvents {
+  /* padding: 4rem 6rem ; */
+}
+.icprdEvents header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 1rem 5rem;
+}
+.icprdEvents header h1 {
+  line-height: 30px;
+  background: #03bdbe;
+  width: 230px;
+  text-align: center;
+  font-family: "Optima" !important;
+  font-weight: bold;
+  letter-spacing: 0px;
+  font-size: 28px;
+  border-bottom: 5px solid #ebaa01;
+  margin: auto;
+  color: white;
+  padding: 0.2rem 0.5rem;
+}
+.event-card-wrapper {
+  margin: 0rem 1rem;
+  /* width: (100vw-12rem); */
+  display: flex;
+  justify-content: center;
+  /* display: flex; */
+
+  overflow: hidden;
+  position: relative;
+}
+.icprdEvents header p,
+.icprdEvents header h1 {
+  font-family: "Neusharp Bold";
+}
+
+.icprdEvents header button {
+  border: none;
+  line-height: 30px;
+  background: #03bdbe;
+  width: 230px;
+  text-align: center;
+  font-family: "Optima" !important;
+  font-weight: bold;
+  letter-spacing: 0px;
+  font-size: 28px;
+  border-bottom: 5px solid #ebaa01;
+  margin: auto;
+  color: white;
+  padding: 0.2rem 0.5rem;
+}
+
+.icprdEvents .event-section {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  /* overflow: hidden; */
+  transition: transform 0.3s ease-in-out;
+  height: 28vw;
+  width: 30vw;
+}
+
+@media screen and (max-width: 425px) {
+  .event-card-wrapper {
+    margin: 0;
+  }
+  .icprdEvents header {
+    text-align: center;
+    display: block;
+  }
+}
+/* Further adjustments for even smaller screens if needed */
+@media screen and (max-width: 370px) {
+  .icprdEvents {
+    padding: 4rem 0rem;
+    text-align: center;
+  }
+  .icprdEvents header {
+    display: block;
+  }
+}
+
+#eventCard0 {
+  transform: translate3d(-105%, 0, 0);
+}
+
+#eventCard1 {
+  transform: translate3d(0, 0, 0px);
+}
+
+#eventCard2 {
+  transform: translate3d(105%, 0, 0px);
+}
+
+#e0:checked ~ .event-section #eventCard0,
+#e1:checked ~ .event-section #eventCard1,
+#e2:checked ~ .event-section #eventCard2 {
+  transform: translate3d(0, 0, 0);
+}
+#e0:checked ~ .event-section #eventCard1,
+#e1:checked ~ .event-section #eventCard2,
+#e2:checked ~ .event-section #eventCard1 {
+  transform: translate3d(105%, 0, 0px);
+}
+#e0:checked ~ .event-section #eventCard2,
+#e1:checked ~ .event-section #eventCard0,
+#e2:checked ~ .event-section #eventCard0 {
+  transform: translate3d(-105%, 0, 0px);
+}
+
+@media screen and (max-width: 2100px) {
+  .icprdEvents .event-section {
+    height: 25vw;
+  }
+}
+/* @media screen and (max-width: 1940px) {
+    .icprdEvents .event-section {     
+        height: 90vh;
+      }
+} */
+
+@media (max-width:1900px) and (min-width:1600px){
+  .icprdEvents .event-section {     
+    height: 82vh;
+  }
+}
+ @media screen and (max-width: 1500px) {
+    .icprdEvents .event-section {     
+        height: 70vh;
+      }
+}
+
+@media screen and (max-width: 1400px) {
+  .icprdEvents .event-section {     
+      height: 70vh;
+    }
+}
+
+
+@media screen and (max-width: 1050px) {
+  .icprdEvents .event-section {
+    height: 600px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .icprdEvents .event-section {
+    height: 410px;
+  }
+  .icprdEvents header h1{
+    width: 130px;
+    font-size: 16px;
+    float: left;
+  }
+  .icprdEvents header button{
+    width: 130px;
+    font-size: 16px;
+    
+  }
+
+}
+@media screen and (max-width: 400px) {
+  .icprdEvents .event-section {
+    height: 400px;
+  }
+}

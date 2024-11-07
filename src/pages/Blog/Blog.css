@@ -1,0 +1,75 @@
+
+  
+  .icprdVerticals > span {
+    position: absolute;
+    opacity: 0.078;
+    font-size: 18vw;
+    top: -6rem;
+    left: 18rem;
+    /* line-height: 81px; */
+    color: #032648;
+    font-weight: bold;
+    font-family: "Neusharp Bold";
+    text-transform: uppercase;
+  }
+
+  .icprdVerticals > p {
+    color: #382224;
+    font-weight: bold;
+    text-align: center;
+  }
+  .text-with-line::before,
+  .text-with-line::after {
+    /* content: "";
+    display: inline-block; */
+    /* width: 43px; */
+    /* height: 2px;  */
+    /* border-radius: 5px; */
+    /* background-color: #ebaa01;  */
+    /* margin: 0 10px;  */
+    /* margin-bottom: 0.3rem; */
+  }
+  
+  .vertical-card-container {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: auto;
+  }
+ 
+  /* Further adjustments for even smaller screens if needed */
+  @media screen and (max-width: 2560px) {
+  .vertical-card-container{
+    max-width: 1200px;
+    margin: 0.5rem auto;
+    gap: 1rem;
+  }
+ 
+      
+  }
+
+  @media (min-width: 1700px) and (max-width:1800px) {
+    .vertical-card-container{
+      /* max-width: 1200px; */
+      max-width: 1700px;
+      margin: 0rem auto;
+      gap: 1rem;
+    }
+  }
+  @media  (max-width:1700px) {
+    .vertical-card-container{
+      max-width: 1200px;
+      
+      
+      
+    }
+  }
+  
+  @media (min-width: 1800px) {
+
+    .cardss {
+        height: 150px !important;
+    }
+  }

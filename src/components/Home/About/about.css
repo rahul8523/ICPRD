@@ -1,0 +1,182 @@
+.aboutSection {
+    font-family: "Helvetica Now Display", "sans-serif";
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    padding: 4rem 6rem;
+    gap: 3rem;
+  }
+  
+  .about-content {
+    flex: 1;
+  }
+  
+  .about-content::before {
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 238px;
+    border-right: 1px solid #ffffff4d;
+    /* border: 1px solid #ffffff4d; */
+    bottom: 0px;
+    right: 0px;
+  }
+  /* .about-detail{
+    margin-left: 5rem;
+  } */
+  /* .about-uplift{
+    position: relative;
+    top: -12rem;
+    border-right: 1px solid #ffffff4d;
+  } */
+  .aboutSection h1 {
+    margin: 0;
+    font-size: 5rem;
+    padding-left: 0rem;
+    font-family: "Neusharp Bold";
+  }
+  
+  .aboutSection h4 {
+    margin-bottom: -12px;
+    background: #03bdbe;
+    width: 230px;
+    text-align: center;
+    font-family: "Optima" !important;
+    font-weight: bold;
+    letter-spacing: 0px;
+    font-size: 28px;
+    border-bottom: 5px solid #ebaa01;
+    padding: 0.2rem 0.5rem;
+  }
+  .aboutSection h4 span {
+    color: yellow;
+    letter-spacing: 0px;
+  }
+ 
+  .aboutSection h5 {
+    font-size: 16px;
+    font-weight: 300;
+  }
+  
+  .aboutSection p {
+    padding-top: 0.5rem;
+    line-height: 1.5rem;
+    /* font-size: 1.1rem; */
+  }
+  
+  .know-more-button {
+    /* border: 1px solid #ffffff4d; */
+    border: none;
+    padding: 0.5rem 0rem;
+    border-radius: 0px;
+    background-color: #ffc107; /* Yellow background color */
+    background: none;
+    color: #ffffff;
+    /* padding: 10px 0px;  */
+    margin: 0rem 0;
+  
+    font-size: 1rem; /* Adjust font size as needed */
+    cursor: pointer;
+    /* Adjust margin as needed */
+  }
+  
+  .yellow-square {
+    width: 1.2rem;
+    height: 1.2rem;
+    background-color: #ffc107; /* Yellow square color */
+    display: inline-block;
+    margin-left: 5px; /* Adjust margin as needed */
+  }
+  
+  .card-container {
+    display: flex;
+  }
+  
+  /* Adjust font size for smaller screens */
+  @media screen and (max-width: 1200px) {
+    .aboutSection {
+      display: block;
+    }
+    .about-uplift {
+      top: 0rem;
+    }
+    .card-container {
+      justify-content: center;
+      border-right: 1px solid #ffffff4d;
+    }
+    .about-content::before {
+      content: "";
+      position: absolute;
+      width: 0px;
+      height: 0px;
+      border-right: none;
+      /* border: 1px solid #ffffff4d; */
+      bottom: 0px;
+      right: 0px;
+    }
+  }
+
+
+    
+/* SLIDER CSS HERE   */
+
+/* Makes images fully responsive */
+
+.img-responsive,
+.thumbnail > img,
+.thumbnail a > img,
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* ------------------- Carousel Styling ------------------- */
+
+.video-box .carousel-inner {
+  border-radius: 0px;
+}
+.video-box .carousel-inner .item p{
+  font-size: 14px;
+  height: 7vw;
+}
+
+.carousel-indicators{
+  visibility: hidden;
+}
+.carousel-control {
+  left: 0;
+  right: 0;
+  transform: translate(-7%, 35%);
+  background-image: none !important;
+}
+
+
+
+/* ------------------- Section Styling - Not needed for carousel styling ------------------- */
+
+.section-white {
+   padding: 10px 0;
+}
+
+.section-white {
+  background-color: #fff;
+  color: #555;
+}
+
+@media screen and (min-width: 768px) {
+
+  .section-white {
+     padding: 1.5em 0;
+  }
+
+}
+
+/* @media screen and (min-width: 992px) {
+
+  .container {
+    max-width: 930px;
+  }
+
+} */

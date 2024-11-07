@@ -1,0 +1,87 @@
+
+.aboutUs-Cards{
+    background-color: #fffbf2;
+    font-family: "Optima";
+    padding: 1rem 8rem;
+}
+@media (min-width:1000px) and (max-width:1400px) {
+  .aboutUs-Cards{
+    padding: 1rem 8rem;
+}
+   }
+   
+.aboutUs-Cards h1{
+  font-size: 30px;
+  font-weight: bolder; 
+}
+.aboutUs-cardContainer{
+    background-color: #fffbf2;
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    margin-top: 2rem;
+    /* flex-wrap: wrap; */
+}
+
+/* Add this to your CSS or use a CSS-in-JS solution */
+
+.aboutUs-Cards .card {
+    border-radius: 8px;
+    padding: 0px;
+    margin: 0px;
+    background:none;
+    font-family: "Optima";
+  }
+  
+  .aboutUs-Cards .card img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .aboutUs-Cards .card-content {
+    margin-top: 1rem;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+  .aboutUs-Cards .card h2 {
+    font-size: 26px;
+    margin: 0;
+    margin-bottom: 0.3rem;
+  }
+  
+  .aboutUs-Cards .card p {
+    font-size: 20px;
+    font-weight: 500;
+  }
+  
+  .aboutUs-Cards .card-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  @media screen and (max-width:750px) {
+    .aboutUs-cardContainer{
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+
+/* //MOBILE PHONE MEDIA QUERY CSS */
+/* //MOBILE PHONE MEDIA QUERY CSS */
+
+  @media (max-width: 900px) and (min-width: 200px) {
+    .aboutUs-Cards {
+      padding: 1rem 2rem;
+}
+.aboutUs-Cards h1 {
+  font-size: 20px;
+}
+  }
+
+  /* //MOBILE PHONE MEDIA QUERY CSS */
+/* //MOBILE PHONE MEDIA QUERY CSS */
