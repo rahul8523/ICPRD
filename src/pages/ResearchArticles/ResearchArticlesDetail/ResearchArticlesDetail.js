@@ -39,19 +39,30 @@ export default function ResearchArticlesDetail() {
             { text: 'Rural Urbanisation', url: '/ruralUrbanisation' },
             { text: 'Trade & Commerce', url: '/tradeCommerce' },
             { text: 'Agriculture', url: '/agriculture' },
+            { text: 'Healthcare', url: '/' },
         ]
     },
     {
-        text: 'Resources',
-        dropdown: true,
-        dropdownOptions: [
+      text: 'Media',
+      dropdown: true,
+      dropdownOptions: [
+          { text: 'Media Report', url: '' },
           { text: 'News', url: '/news' },
-            { text: 'Article', url: '/research-articles' },
-            { text: 'Blog', url: '/blog' },
-        ],
-    },
+          { text: 'Article', url: '/research-articles' },
+          { text: 'Blog', url: '/blog' },
+      ],
+  },
     { text: 'Event', url: '/event' },
     { text: 'Team Behind us', url: '/people-behind-us' },
+    {
+      text: 'GlobalChapter',
+      dropdown: true,
+      dropdownOptions: [
+          { text: 'USA', url: '/' },
+          { text: 'UK', url: '/' },
+          { text: 'South Africa', url: '/' },
+      ],
+  },
     { text: 'Support Us', url: '/support' },
     { text: 'Contact Us', url: '/contact' },
     // ... other links

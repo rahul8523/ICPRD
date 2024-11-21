@@ -16,7 +16,6 @@ export default function Agriculture() {
             dropdownOptions: [
                 { text: 'About Us', url: '/aboutUs' },
                 { text: 'President Desk', url: '/president' },
-                { text: 'People Behind Us', url: '/people-behind-us' },
             ],
         },
         {
@@ -33,11 +32,28 @@ export default function Agriculture() {
                 { text: 'Agriculture', url: '/agriculture' },
             ]
         },
-        { text: 'Resources', url: '/research-articles' },
-        { text: 'Event', url: '/event' },
-        { text: 'Media', url: '/media-reports' },
-        { text: 'Support Us', url: '/support' },
-        { text: 'Contact Us', url: '/contact' },
+        {
+            text: 'GlobalChapter',
+            dropdown: true,
+            dropdownOptions: [
+                { text: 'USA', url: '/' },
+                { text: 'UK', url: '/' },
+                { text: 'South Africa', url: '/' },
+            ],
+        },
+        {
+            text: 'Media',
+            dropdown: true,
+            dropdownOptions: [
+                { text: 'Media Report', url: '' },
+                { text: 'News', url: '/news' },
+                { text: 'Article', url: '/research-articles' },
+                { text: 'Blog', url: '/blog' },
+            ],
+        },
+        
+        { text: "Connect With Us", url: "/contact"},
+
         // ... other links
     ];
     const bannerData = {
