@@ -27,7 +27,7 @@ export default function Faculty() {
            </Card>
         </Col>
 
-        <Col sm={12} md={3}>
+        {/* <Col sm={12} md={3}>
           <Card className="box-sdow">
             <Card.Img variant="top" src={Dummy} />
             <Card.Body className="pb-0">
@@ -35,7 +35,7 @@ export default function Faculty() {
               <Card.Text className="m-0"> Former Member of the Lok Sabha to Principal Kerorimal College </Card.Text>
             </Card.Body>
            </Card>
-        </Col>
+        </Col> */}
 
         <Col sm={12} md={3}>
           <Card className="box-sdow">
@@ -57,6 +57,78 @@ export default function Faculty() {
            </Card>
         </Col>
 
+
+        <Col sm={12} md={3}>
+          <Card className="box-sdow">
+            <Card.Img variant="top" src={Dummy} />
+            <Card.Body className="pb-0">
+              <Card.Title>Prof Sanjay Bharadwaj</Card.Title>
+              <Card.Text className="m-0"> Jawaharlal Nehru University </Card.Text>
+            </Card.Body>
+           </Card>
+        </Col>
+
+        <Col sm={12} md={3}>
+          <Card className="box-sdow">
+            <Card.Img variant="top" src={Dummy} />
+            <Card.Body className="pb-0">
+              <Card.Title>Dr. Rohan Krishnan</Card.Title>
+              <Card.Text className="m-0"> MBBS, MS Ortho </Card.Text>
+            </Card.Body>
+           </Card>
+        </Col>
+
+        <Col sm={12} md={3}>
+          <Card className="box-sdow">
+            <Card.Img variant="top" src={Dummy} />
+            <Card.Body className="pb-0">
+              <Card.Title>Dr. Naval Kumar Verma</Card.Title>
+              <Card.Text className="m-0">-</Card.Text>
+            </Card.Body>
+           </Card>
+        </Col>
+
+        <Col sm={12} md={3}>
+          <Card className="box-sdow">
+            <Card.Img variant="top" src={Dummy} />
+            <Card.Body className="pb-0">
+              <Card.Title>Prof. Kuldeep Shrivastava</Card.Title>
+              <Card.Text className="m-0"> -</Card.Text>
+            </Card.Body>
+           </Card>
+        </Col>
+
+        <Col sm={12} md={3}>
+          <Card className="box-sdow">
+            <Card.Img variant="top" src={Dummy} />
+            <Card.Body className="pb-0">
+              <Card.Title>Prof. Ashwani Kumar</Card.Title>
+              <Card.Text className="m-0"> Dean Tata Institute of Social Sciences , Mumbai</Card.Text>
+            </Card.Body>
+           </Card>
+        </Col>
+
+
+        <Col sm={12} md={3}>
+          <Card className="box-sdow">
+            <Card.Img variant="top" src={Dummy} />
+            <Card.Body className="pb-0">
+              <Card.Title>Prof. Pankaj Arora</Card.Title>
+              <Card.Text className="m-0"> CIF, DU, New Education Policy </Card.Text>
+            </Card.Body>
+           </Card>
+        </Col>
+
+        
+        <Col sm={12} md={3}>
+          <Card className="box-sdow">
+            <Card.Img variant="top" src={Dummy} />
+            <Card.Body className="pb-0">
+              <Card.Title>Prof. Radheshyam Sharma</Card.Title>
+              <Card.Text className="m-0"> Dept of Environmental Studies, Delhi University</Card.Text>
+            </Card.Body>
+           </Card>
+        </Col>
         {/* <Col sm={12} md={3}>
           <Card className="box-sdow">
             <Card.Img variant="top" src={Faculty2} />

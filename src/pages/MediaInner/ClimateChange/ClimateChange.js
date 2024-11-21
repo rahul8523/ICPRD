@@ -31,10 +31,28 @@ export default function ClimateChange() {
                 { text: 'Agriculture', url: '/agriculture' },
             ]
         },
-        { text: 'Resources' },
-        { text: 'Event' },
-        { text: 'Media' },
+        {
+            text: 'GlobalChapter',
+            dropdown: true,
+            dropdownOptions: [
+                { text: 'USA', url: '/' },
+                { text: 'UK', url: '/' },
+                { text: 'South Africa', url: '/' },
+            ],
+        },
+        {
+            text: 'Media',
+            dropdown: true,
+            dropdownOptions: [
+                { text: 'Media Report', url: '' },
+                { text: 'News', url: '/news' },
+                { text: 'Article', url: '/research-articles' },
+                { text: 'Blog', url: '/blog' },
+            ],
+        },
+        
         { text: "Connect With Us", url: "/contact"},
+
         // ... other links
     ];
     const bannerData = {

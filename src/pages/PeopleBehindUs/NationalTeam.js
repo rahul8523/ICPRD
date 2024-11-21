@@ -1,6 +1,6 @@
 import React from "react";
 // import Peoples from "../../assets/images/people/Laye.png";
-import NationalImage from "../../assets/images/PresidentsDesk/PresidentImg.jpg";
+
 import NationalImage4 from "../../assets/images/event-details/NationalImage/Aditya-Reddy.jpg";
 import NationalImage5 from "../../assets/images/event-details/NationalImage/NV-SubbaRaju.jpg";
 import NationalImage9 from "../../assets/images/event-details/NationalImage/Adv-Aditya-Chaudhary.jpg";
@@ -22,27 +22,65 @@ import Col from "react-bootstrap/Col";
 export default function NationalTeam() {
   return (
     <Row className="mt-5 doml">
-      <Col sm={6} md={3}>
+   
+
+     
+        <Col sm={6} md={3}>
         <Card className="box-sdow">
-          <Card.Img variant="top" src={NationalImage} />
-          <Card.Body className="pb-0">
-            <Card.Title>Kr. Rajiv Ranjan Singh</Card.Title>
-            <Card.Text className="m-0">Founder President</Card.Text>
-          </Card.Body>
-        </Card>
-      </Col>
-      <Col sm={6} md={3}>
+            <Card.Img variant="top" src={Dummy} />
+            <Card.Body className="pb-0">
+              <Card.Title>Adv. Ashutosh Kumar</Card.Title>
+              <Card.Text className="m-0">Supreme Court of India</Card.Text>
+            </Card.Body>
+          </Card>
+        </Col>
+
+        <Col sm={6} md={3}>
+        <Card className="box-sdow">
+            <Card.Img variant="top" src={Dummy} />
+            <Card.Body className="pb-0">
+              <Card.Title>Adv. Manish Kumar Choudhary</Card.Title>
+              <Card.Text className="m-0">Supreme Court of India</Card.Text>
+            </Card.Body>
+          </Card>
+        </Col>
+
+        <Col sm={6} md={3}>
         <Card className="box-sdow">
           <Card.Img variant="top" src={NationalImage9} />
           <Card.Body className="pb-0">
             <Card.Title>Adv. Aditya Chaudhary</Card.Title>
             <Card.Text className="m-0">
-              Advocate, Supreme Court of India
+             Supreme Court of India
             </Card.Text>
           </Card.Body>
         </Card>
       </Col>
+
       <Col sm={6} md={3}>
+        <Card className="box-sdow">
+          <Card.Img variant="top" src={Dummy} />
+          <Card.Body className="pb-0">
+            <Card.Title>Adv. Akhand Pratap Singh</Card.Title>
+            <Card.Text className="m-0">Supreme Court of India</Card.Text>
+          </Card.Body>
+        </Card>
+      </Col>
+
+
+      <Col sm={6} md={3} className="pt-4">
+        <Card className="box-sdow">
+          <Card.Img variant="top" src={NationalImage4} />
+          <Card.Body className="pb-0">
+            <Card.Title>J. Aditya Pinnapureddy</Card.Title>
+            <Card.Text className="m-0">
+              Entrepreneur & Social Commentator
+            </Card.Text>
+          </Card.Body>
+        </Card>
+      </Col>
+
+      <Col sm={6} md={3} className="pt-4">
         <Card className="box-sdow">
           <Card.Img variant="top" src={PratapRao} />
           <Card.Body className="pb-0">
@@ -52,15 +90,204 @@ export default function NationalTeam() {
         </Card>
       </Col>
 
-      <Col sm={6} md={3}>
+      <Col sm={6} md={3} className="pt-4">
+        <Card className="box-sdow">
+          <Card.Img variant="top" src={NationalImage5} />
+          <Card.Body className="pb-0">
+            <Card.Title>N V SubbaRaju</Card.Title>
+            <Card.Text className="m-0">Social & Political Activist</Card.Text>
+          </Card.Body>
+        </Card>
+      </Col>
+
+
+      <Col sm={6} md={3} className="pt-4">
+        <Card className="box-sdow">
+          <Card.Img variant="top" src={NationalImage21} />
+          <Card.Body className="pb-0">
+            <Card.Title>Suresh Nagar Chaudhary</Card.Title>
+            <Card.Text className="m-0">Social & Political Activist</Card.Text>
+          </Card.Body>
+        </Card>
+      </Col>
+
+      <Col sm={6} md={3} className="pt-4">
+        <Card className="box-sdow">
+          <Card.Img variant="top" src={NationalImage28} />
+          <Card.Body className="pb-0">
+            <Card.Title>Raja Kumar</Card.Title>
+            <Card.Text className="m-0">Media</Card.Text>
+          </Card.Body>
+        </Card>
+      </Col>
+
+      <Col sm={6} md={3} className="pt-4">
+        <Card className="box-sdow">
+          <Card.Img variant="top" src={NationalImage22} />
+          <Card.Body className="pb-0">
+            <Card.Title>Barkha Singh</Card.Title>
+            <Card.Text className="m-0">Senior Follows Strategy & Diplomacy</Card.Text>
+          </Card.Body>
+        </Card>
+      </Col>
+
+      <Col sm={6} md={3} className="pt-4">
+        <Card className="box-sdow">
+          <Card.Img variant="top" src={Dummy} />
+          <Card.Body className="pb-0">
+            <Card.Title>Rajat Kumar Mishra </Card.Title>
+            <Card.Text className="m-0">Senior Fellow Economic Affairs</Card.Text>
+          </Card.Body>
+        </Card>
+      </Col>
+
+      <Col sm={6} md={3} className="pt-4">
+        <Card className="box-sdow">
+          <Card.Img variant="top" src={NationalImage18} />
+          <Card.Body className="pb-0">
+            <Card.Title>Samar Qureshi</Card.Title>
+            <Card.Text className="m-0">
+              Management & Strategy Consultant
+            </Card.Text>
+          </Card.Body>
+        </Card>
+      </Col>
+
+      <Col sm={6} md={3} className="pt-4">
+        <Card className="box-sdow">
+          <Card.Img variant="top" src={Dummy} />
+          <Card.Body className="pb-0">
+            <Card.Title>Rakesh Senger	</Card.Title>
+            <Card.Text className="m-0">
+            Social Activist
+            </Card.Text>
+          </Card.Body>
+        </Card>
+      </Col>
+
+      <Col sm={6} md={3} className="pt-4">
         <Card className="box-sdow">
           <Card.Img variant="top" src={Dummy} />
           <Card.Body className="pb-0">
             <Card.Title>Anil Pandey</Card.Title>
-            <Card.Text className="m-0">Senior Journalist, New Delhi</Card.Text>
+            <Card.Text className="m-0">Senior Journalist</Card.Text>
           </Card.Body>
         </Card>
       </Col>
+
+      <Col sm={6} md={3} className="pt-4">
+        <Card className="box-sdow">
+          <Card.Img variant="top" src={NationalImage11} />
+          <Card.Body className="pb-0">
+            <Card.Title>Bhavesh Nandan Jha</Card.Title>
+            <Card.Text className="m-0">Film Maker, New Delhi</Card.Text>
+          </Card.Body>
+        </Card>
+      </Col>
+
+      <Col sm={6} md={3} className="pt-4">
+        <Card className="box-sdow">
+          <Card.Img variant="top" src={NationalImage26} />
+          <Card.Body className="pb-0">
+            <Card.Title>Dinesh Bassi</Card.Title>
+            <Card.Text className="m-0">Media</Card.Text>
+          </Card.Body>
+        </Card>
+      </Col>
+
+      <Col sm={6} md={3} className="pt-4">
+        <Card className="box-sdow">
+          <Card.Img variant="top" src={Dummy} />
+          <Card.Body className="pb-0">
+            <Card.Title>Vipula Shrivastava</Card.Title>
+            <Card.Text className="m-0">Senior Follow Geo-Strategy & Diplomacy, London</Card.Text>
+          </Card.Body>
+        </Card>
+      </Col>
+
+      <Col sm={6} md={3} className="pt-4">
+        <Card className="box-sdow">
+          <Card.Img variant="top" src={Dummy} />
+          <Card.Body className="pb-0">
+            <Card.Title>CA Rajesh Sinha</Card.Title>
+            <Card.Text className="m-0">Finance Expert</Card.Text>
+          </Card.Body>
+        </Card>
+      </Col>
+
+      <Col sm={6} md={3} className="pt-4">
+        <Card className="box-sdow">
+          <Card.Img variant="top" src={Dummy} />
+          <Card.Body className="pb-0">
+            <Card.Title>Rajender Singh Shekhawat</Card.Title>
+            <Card.Text className="m-0">Social Avtivist</Card.Text>
+          </Card.Body>
+        </Card>
+      </Col>
+      <Col sm={6} md={3} className="pt-4">
+        <Card className="box-sdow">
+          <Card.Img variant="top" src={Dummy} />
+          <Card.Body className="pb-0">
+            <Card.Title>Karl Wadia</Card.Title>
+            <Card.Text className="m-0">Senior Fellow Foreign Relations</Card.Text>
+          </Card.Body>
+        </Card>
+      </Col>
+
+      <Col sm={6} md={3} className="pt-4">
+        <Card className="box-sdow">
+          <Card.Img variant="top" src={Dummy} />
+          <Card.Body className="pb-0">
+            <Card.Title>Upendra Singh</Card.Title>
+            <Card.Text className="m-0">Social & Political Activist</Card.Text>
+          </Card.Body>
+        </Card>
+      </Col>
+
+      <Col sm={6} md={3} className="pt-4">
+        <Card className="box-sdow">
+          <Card.Img variant="top" src={Dummy} />
+          <Card.Body className="pb-0">
+            <Card.Title>Ramesh Nambiar</Card.Title>
+            <Card.Text className="m-0">Social & Political Activist</Card.Text>
+          </Card.Body>
+        </Card>
+      </Col>
+
+      <Col sm={6} md={3} className="pt-4">
+        <Card className="box-sdow">
+          <Card.Img variant="top" src={Dummy} />
+          <Card.Body className="pb-0">
+            <Card.Title>Arvind Belad</Card.Title>
+            <Card.Text className="m-0">Social & Political Activist</Card.Text>
+          </Card.Body>
+        </Card>
+      </Col>
+
+      <Col sm={6} md={3} className="pt-4">
+        <Card className="box-sdow">
+          <Card.Img variant="top" src={Dummy} />
+          <Card.Body className="pb-0">
+            <Card.Title>Prakash Gupta</Card.Title>
+            <Card.Text className="m-0">Social & Political Activist</Card.Text>
+          </Card.Body>
+        </Card>
+      </Col>
+
+      <Col sm={6} md={3} className="pt-4">
+        <Card className="box-sdow">
+          <Card.Img variant="top" src={Dummy} />
+          <Card.Body className="pb-0">
+            <Card.Title>Raghav Das Mundhra</Card.Title>
+            <Card.Text className="m-0"> Industrialist and Philanthropist  </Card.Text>
+          </Card.Body>
+        </Card>
+      </Col>
+
+
+      {/* 
+ 
+      
 
       <Col sm={6} md={3} className="pt-4">
         <Card className="box-sdow">
@@ -84,15 +311,7 @@ export default function NationalTeam() {
         </Card>
       </Col>
 
-      <Col sm={6} md={3} className="pt-4">
-        <Card className="box-sdow">
-          <Card.Img variant="top" src={NationalImage11} />
-          <Card.Body className="pb-0">
-            <Card.Title>Bhavesh Nandan Jha</Card.Title>
-            <Card.Text className="m-0">Film Maker, New Delhi</Card.Text>
-          </Card.Body>
-        </Card>
-      </Col>
+      
 
       <Col sm={6} md={3} className="pt-4">
         <Card className="box-sdow">
@@ -104,53 +323,11 @@ export default function NationalTeam() {
         </Card>
       </Col>
 
-      <Col sm={6} md={3} className="pt-4">
-        <Card className="box-sdow">
-          <Card.Img variant="top" src={NationalImage22} />
-          <Card.Body className="pb-0">
-            <Card.Title>Barkha Singh</Card.Title>
-            <Card.Text className="m-0">Senior Follows Strategy & Diplomacy</Card.Text>
-          </Card.Body>
-        </Card>
-      </Col>
-      <Col sm={6} md={3} className="pt-4">
-        <Card className="box-sdow">
-          <Card.Img variant="top" src={NationalImage26} />
-          <Card.Body className="pb-0">
-            <Card.Title>Dinesh Bassi</Card.Title>
-            <Card.Text className="m-0">Media</Card.Text>
-          </Card.Body>
-        </Card>
-      </Col>
-      <Col sm={6} md={3} className="pt-4">
-        <Card className="box-sdow">
-          <Card.Img variant="top" src={NationalImage21} />
-          <Card.Body className="pb-0">
-            <Card.Title>Suresh Nagar Chaudhary</Card.Title>
-            <Card.Text className="m-0">Social & Political Activist</Card.Text>
-          </Card.Body>
-        </Card>
-      </Col>
-      <Col sm={6} md={3} className="pt-4">
-        <Card className="box-sdow">
-          <Card.Img variant="top" src={NationalImage28} />
-          <Card.Body className="pb-0">
-            <Card.Title>Raja Kumar</Card.Title>
-            <Card.Text className="m-0">Media</Card.Text>
-          </Card.Body>
-        </Card>
-      </Col>
-      <Col sm={6} md={3} className="pt-4">
-        <Card className="box-sdow">
-          <Card.Img variant="top" src={NationalImage18} />
-          <Card.Body className="pb-0">
-            <Card.Title>Samar Qureshi</Card.Title>
-            <Card.Text className="m-0">
-              Management & Strategy Consultant
-            </Card.Text>
-          </Card.Body>
-        </Card>
-      </Col>
+      
+    
+      
+    
+       */}
 
       {/* <Col sm={6} md={3} className="pt-4">
         <Card className="box-sdow">
@@ -161,15 +338,7 @@ export default function NationalTeam() {
           </Card.Body>
         </Card>
       </Col>
-      <Col sm={6} md={3} className="pt-4">
-        <Card className="box-sdow">
-          <Card.Img variant="top" src={NationalImage26} />
-          <Card.Body className="pb-0">
-            <Card.Title>Pratap Rao</Card.Title>
-            <Card.Text className="m-0">Political & Social Activist</Card.Text>
-          </Card.Body>
-        </Card>
-      </Col>
+
     
 
       <Col sm={6} md={3} className="pt-4">
@@ -192,16 +361,7 @@ export default function NationalTeam() {
           </Card>
         </Col> */}
 
-      {/* 
-        <Col sm={6} md={3} className="pt-4">
-        <Card className="box-sdow">
-            <Card.Img variant="top" src={NationalImage3} />
-            <Card.Body className="pb-0">
-              <Card.Title>Adv. Ashutosh Kumar</Card.Title>
-              <Card.Text className="m-0">Advocate, Supreme Court of India</Card.Text>
-            </Card.Body>
-          </Card>
-        </Col> */}
+
 
       {/* <Col sm={6} md={3} className="pt-4">
         <Card className="box-sdow">

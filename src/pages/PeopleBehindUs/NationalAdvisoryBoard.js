@@ -176,6 +176,86 @@ export default function NationalAdvisoryBoard() {
         </Card>
       </Col>
 
+      
+      <Col sm={6} md={3} className="pt-4">
+        <Card className="box-sdow">
+          <Card.Img variant="top" src={Dummy} />
+          <Card.Body className="pb-0">
+            <Card.Title>Group Captain Vishwajeet Kumar (R)</Card.Title>
+            <Card.Text className="m-0">Advisor, Aviation and Strategic Affairs</Card.Text>
+          </Card.Body>
+        </Card>
+      </Col>
+
+      <Col sm={6} md={3} className="pt-4">
+        <Card className="box-sdow">
+          <Card.Img variant="top" src={Dummy} />
+          <Card.Body className="pb-0">
+            <Card.Title>Vijay G. Kalantri</Card.Title>
+            <Card.Text className="m-0">Chairman MVIRDC World Trade Centre, Mumbai</Card.Text>
+          </Card.Body>
+        </Card>
+      </Col>
+
+      <Col sm={6} md={3} className="pt-4">
+        <Card className="box-sdow">
+          <Card.Img variant="top" src={Dummy} />
+          <Card.Body className="pb-0">
+            <Card.Title>Mahesh Gupta</Card.Title>
+            <Card.Text className="m-0">Chairman, Kent RO Systems</Card.Text>
+          </Card.Body>
+        </Card>
+      </Col>
+      <Col sm={6} md={3} className="pt-4">
+        <Card className="box-sdow">
+          <Card.Img variant="top" src={Dummy} />
+          <Card.Body className="pb-0">
+            <Card.Title>Agrawal</Card.Title>
+            <Card.Text className="m-0">Former Member, SEBI</Card.Text>
+          </Card.Body>
+        </Card>
+      </Col>
+
+      <Col sm={6} md={3} className="pt-4">
+        <Card className="box-sdow">
+          <Card.Img variant="top" src={Dummy} />
+          <Card.Body className="pb-0">
+            <Card.Title>Subodh Tiwari	</Card.Title>
+            <Card.Text className="m-0">CEO Kaivalyadhama Yoga Institute, Lonawala</Card.Text>
+          </Card.Body>
+        </Card>
+      </Col>
+
+      <Col sm={6} md={3} className="pt-4">
+        <Card className="box-sdow">
+          <Card.Img variant="top" src={Dummy} />
+          <Card.Body className="pb-0">
+            <Card.Title> Dr. Rajesh Mehta </Card.Title>
+            <Card.Text className="m-0">Geo-Strategy & Diplomacy</Card.Text>
+          </Card.Body>
+        </Card>
+      </Col>
+
+      <Col sm={6} md={3} className="pt-4">
+        <Card className="box-sdow">
+          <Card.Img variant="top" src={Dummy} />
+          <Card.Body className="pb-0">
+            <Card.Title> Dr. Rajesh Mehta </Card.Title>
+            <Card.Text className="m-0">Geo-Strategy & Diplomacy</Card.Text>
+          </Card.Body>
+        </Card>
+      </Col>
+
+      <Col sm={6} md={3} className="pt-4">
+        <Card className="box-sdow">
+          <Card.Img variant="top" src={Dummy} />
+          <Card.Body className="pb-0">
+            <Card.Title> Prashant Tiwari </Card.Title>
+            <Card.Text className="m-0"></Card.Text>
+          </Card.Body>
+        </Card>
+      </Col>
+
       {/* <Col sm={6} md={3} className="pt-4">
         <Card className="box-sdow">
           <Card.Img variant="top" src={Peoples12} />
