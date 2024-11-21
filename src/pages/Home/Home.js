@@ -39,6 +39,7 @@ export default function Home() {
                 { text: 'Rural Urbanisation', url: '/ruralUrbanisation' },
                 { text: 'Trade & Commerce', url: '/tradeCommerce' },
                 { text: 'Agriculture', url: '/agriculture' },
+                { text: 'Healthcare', url: '/' },
             ]
         },
         {
