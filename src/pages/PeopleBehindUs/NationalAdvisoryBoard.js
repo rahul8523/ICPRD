@@ -8,7 +8,7 @@ import Peoples5 from "../../assets/images/event-details/NationalAdvisoryBoard/Dr
 import Peoples6 from "../../assets/images/event-details/NationalAdvisoryBoard/Dr6.jpg";
 // import Peoples7 from "../../assets/images/event-details/NationalAdvisoryBoard/Dr7.jpg";
 // import Peoples8 from "../../assets/images/event-details/NationalAdvisoryBoard/Dr8.jpg";
-// import NationalImage1 from "../../assets/images/event-details/NationalImage/RakeshSenger.jpg";
+import Poonam from "../../assets/images/event-details/PresidentDesk/Poonam.jpeg";
 import Peoples9 from "../../assets/images/event-details/NationalAdvisoryBoard/Dr9.jpg";
 import Peoples10 from "../../assets/images/event-details/NationalAdvisoryBoard/Banish-Dhar.jpeg";
 import Peoples11 from "../../assets/images/event-details/NationalAdvisoryBoard/Dr11.jpg";
@@ -75,8 +75,17 @@ export default function NationalAdvisoryBoard() {
         <Card className="box-sdow">
           <Card.Img variant="top" src={Peoples15} />
           <Card.Body className="pb-0">
-            <Card.Title>Rajendra Singh Shekhawat 'Daanta'</Card.Title>
+            <Card.Title>Rajendra Singh Shekhawat</Card.Title>
             <Card.Text className="m-0">Social Activist (Rajasthan)</Card.Text>
+          </Card.Body>
+        </Card>
+      </Col>
+    <Col sm={6} md={3} className="pt-4">
+        <Card className="box-sdow">
+          <Card.Img variant="top" src={Peoples15} />
+          <Card.Body className="pb-0">
+            <Card.Title>Poonam Koura</Card.Title>
+            <Card.Text className="m-0">-</Card.Text>
           </Card.Body>
         </Card>
       </Col>
