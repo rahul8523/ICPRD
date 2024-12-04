@@ -17,7 +17,7 @@ import Peoples12 from "../../assets/images/event-details/NationalAdvisoryBoard/D
 // import NationalImage7 from "../../assets/images/event-details/NationalImage/Anil-Pandey.jpg";
 // import Peoples14 from "../../assets/images/event-details/NatyionalAdvisoryBoard/Dr14.jpg";
 // import Peoples15 from "../../assets/images/event-details/NationalAdvisoryBoard/Dr15.jpg";
-// import Peoples16 from "../../assets/images/event-details/NationalAdvisoryBoard/Dr16.jpg";
+ import Peoples16 from "../../assets/images/event-details/NationalAdvisoryBoard/Dr16.jpg";
 // import Peoples17 from "../../assets/images/event-details/NationalAdvisoryBoard/Dr17.jpg";
 // import Peoples18 from "../../assets/images/event-details/NationalAdvisoryBoard/Dr18.jpg";
 // import Peoples19 from "../../assets/images/event-details/NationalAdvisoryBoard/Dr19.jpg";
@@ -35,7 +35,51 @@ import Col from "react-bootstrap/Col";
 export default function NationalAdvisoryBoard() {
   return (
     <Row className="mt-5 doml">
-    
+     <Col sm={6} md={3} className="pt-4">
+        <Card className="box-sdow">
+          <Card.Img variant="top" src={Peoples16} />
+          <Card.Body className="pb-0">
+            <Card.Title>Rajesh Sinha</Card.Title>
+            <Card.Text className="m-0">Financial Consultant</Card.Text>
+          </Card.Body>
+        </Card>
+      </Col>
+    <Col sm={6} md={3} className="pt-4">
+        <Card className="box-sdow">
+          <Card.Img variant="top" src={Dummy} />
+          <Card.Body className="pb-0">
+            <Card.Title>Shri Shyam Jaju</Card.Title>
+            <Card.Text className="m-0">-</Card.Text>
+          </Card.Body>
+        </Card>
+      </Col>
+    <Col sm={6} md={3} className="pt-4">
+        <Card className="box-sdow">
+          <Card.Img variant="top" src={Dummy} />
+          <Card.Body className="pb-0">
+            <Card.Title>Gurinder Shandhu</Card.Title>
+            <Card.Text className="m-0">-</Card.Text>
+          </Card.Body>
+        </Card>
+      </Col>
+    <Col sm={6} md={3} className="pt-4">
+        <Card className="box-sdow">
+          <Card.Img variant="top" src={Dummy} />
+          <Card.Body className="pb-0">
+            <Card.Title>Purnima Anand</Card.Title>
+            <Card.Text className="m-0">-</Card.Text>
+          </Card.Body>
+        </Card>
+      </Col>
+     <Col sm={6} md={3} className="pt-4">
+        <Card className="box-sdow">
+          <Card.Img variant="top" src={Peoples15} />
+          <Card.Body className="pb-0">
+            <Card.Title>Rajendra Singh Shekhawat 'Daanta'</Card.Title>
+            <Card.Text className="m-0">Social Activist (Rajasthan)</Card.Text>
+          </Card.Body>
+        </Card>
+      </Col>
       <Col sm={6} md={3} className="pt-4">
         <Card className="box-sdow">
           <Card.Img variant="top" src={Peoples1} />
@@ -388,15 +432,7 @@ export default function NationalAdvisoryBoard() {
           </Card.Body>
         </Card>
       </Col> */}
-      {/* <Col sm={6} md={3} className="pt-4">
-        <Card className="box-sdow">
-          <Card.Img variant="top" src={Peoples16} />
-          <Card.Body className="pb-0">
-            <Card.Title>Rajesh Sinha</Card.Title>
-            <Card.Text className="m-0">Financial Consultant</Card.Text>
-          </Card.Body>
-        </Card>
-      </Col>
+      
       <Col sm={6} md={3} className="pt-4">
         <Card className="box-sdow">
           <Card.Img variant="top" src={Peoples17} />
