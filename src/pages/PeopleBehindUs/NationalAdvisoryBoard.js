@@ -82,7 +82,7 @@ export default function NationalAdvisoryBoard() {
       </Col>
     <Col sm={6} md={3} className="pt-4">
         <Card className="box-sdow">
-          <Card.Img variant="top" src={Peoples15} />
+          <Card.Img variant="top" src={Poonam} />
           <Card.Body className="pb-0">
             <Card.Title>Poonam Koura</Card.Title>
             <Card.Text className="m-0">-</Card.Text>
