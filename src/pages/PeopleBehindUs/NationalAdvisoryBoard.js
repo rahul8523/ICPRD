@@ -1,5 +1,5 @@
 import React from "react";
-import Peoples from "../../assets/images/people/Laye.png";
+// import Peoples from "../../assets/images/people/Laye.png";
 import Peoples1 from "../../assets/images/event-details/NationalAdvisoryBoard/Dr.jpg";
 import Peoples2 from "../../assets/images/event-details/NationalAdvisoryBoard/Dr2.jpg";
 import Peoples3 from "../../assets/images/event-details/NationalAdvisoryBoard/Dr3.jpg";
@@ -10,9 +10,9 @@ import Peoples6 from "../../assets/images/event-details/NationalAdvisoryBoard/Dr
 // import Peoples8 from "../../assets/images/event-details/NationalAdvisoryBoard/Dr8.jpg";
 import Poonam from "../../assets/images/PresidentsDesk/Poonam.jpeg";
 import Peoples9 from "../../assets/images/event-details/NationalAdvisoryBoard/Dr9.jpg";
-import Peoples10 from "../../assets/images/event-details/NationalAdvisoryBoard/Banish-Dhar.jpeg";
+// import Peoples10 from "../../assets/images/event-details/NationalAdvisoryBoard/Banish-Dhar.jpeg";
 import Peoples11 from "../../assets/images/event-details/NationalAdvisoryBoard/Dr11.jpg";
-import Peoples12 from "../../assets/images/event-details/NationalAdvisoryBoard/Dr12.jpg";
+// import Peoples12 from "../../assets/images/event-details/NationalAdvisoryBoard/Dr12.jpg";
 // import Peoples13 from "../../assets/images/event-details/NationalAdvisoryBoard/Dr13.jpg";
 // import NationalImage7 from "../../assets/images/event-details/NationalImage/Anil-Pandey.jpg";
 // import Peoples14 from "../../assets/images/event-details/NatyionalAdvisoryBoard/Dr14.jpg";

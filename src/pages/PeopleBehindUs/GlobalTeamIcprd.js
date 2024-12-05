@@ -1,7 +1,7 @@
 import React from "react";
-import Peoples from "../../assets/images/people/Laye.png";
-import Dummy from "../../assets/images/people/Dummy.jpg";
-import KaranSingh from "../../assets/images/people/Dr.Karan-Singh.jpg";
+// import Peoples from "../../assets/images/people/Laye.png";
+// import Dummy from "../../assets/images/people/Dummy.jpg";
+// import KaranSingh from "../../assets/images/people/Dr.Karan-Singh.jpg";
 import South from "../../assets/images/sothaf.png";
 import UnitedK from "../../assets/images/Flag_of_the_United_Kingdom.svg";
 import Usa from "../../assets/images/usa.svg";

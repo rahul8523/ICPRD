@@ -1,9 +1,9 @@
 import React from "react";
-import Faculty1 from "../../assets/images/event-details/Faculty/Rajeev-Mehrotra.jpg";
-import Faculty2 from "../../assets/images/event-details/Faculty/B-letter.jpg";
-import Faculty3 from "../../assets/images/event-details/Faculty/Rama-Raju.jpg";
-import Faculty4 from "../../assets/images/event-details/Faculty/Harsh-M.A.(Global-Thought)-University-of-Columbia.jpg";
-import Faculty5 from "../../assets/images/event-details/Faculty/ShagunSethi.jpg";
+// import Faculty1 from "../../assets/images/event-details/Faculty/Rajeev-Mehrotra.jpg";
+// import Faculty2 from "../../assets/images/event-details/Faculty/B-letter.jpg";
+// import Faculty3 from "../../assets/images/event-details/Faculty/Rama-Raju.jpg";
+// import Faculty4 from "../../assets/images/event-details/Faculty/Harsh-M.A.(Global-Thought)-University-of-Columbia.jpg";
+// import Faculty5 from "../../assets/images/event-details/Faculty/ShagunSethi.jpg";
 import Dummy from "../../assets/images/people/Dummy.jpg";
 
 import Row from "react-bootstrap/Row";
