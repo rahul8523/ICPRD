@@ -1,7 +1,7 @@
 import React from "react";
-import Peoples from "../../assets/images/people/Laye.png";
+// import Peoples from "../../assets/images/people/Laye.png";
 import Dummy from "../../assets/images/people/Dummy.jpg";
-import KaranSingh from "../../assets/images/people/Dr.Karan-Singh.jpg";
+// import KaranSingh from "../../assets/images/people/Dr.Karan-Singh.jpg";
 import Row from "react-bootstrap/Row";
 import Card from "react-bootstrap/Card";
 import './PeopleBehindUs.css'
