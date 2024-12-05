@@ -8,7 +8,7 @@ import Peoples5 from "../../assets/images/event-details/NationalAdvisoryBoard/Dr
 import Peoples6 from "../../assets/images/event-details/NationalAdvisoryBoard/Dr6.jpg";
 // import Peoples7 from "../../assets/images/event-details/NationalAdvisoryBoard/Dr7.jpg";
 // import Peoples8 from "../../assets/images/event-details/NationalAdvisoryBoard/Dr8.jpg";
-import Poonam from "../../assets/images/event-details/PresidentDesk/Poonam.jpeg";
+import Poonam from "../../assets/images/PresidentsDesk/Poonam.jpeg";
 import Peoples9 from "../../assets/images/event-details/NationalAdvisoryBoard/Dr9.jpg";
 import Peoples10 from "../../assets/images/event-details/NationalAdvisoryBoard/Banish-Dhar.jpeg";
 import Peoples11 from "../../assets/images/event-details/NationalAdvisoryBoard/Dr11.jpg";
@@ -16,7 +16,7 @@ import Peoples12 from "../../assets/images/event-details/NationalAdvisoryBoard/D
 // import Peoples13 from "../../assets/images/event-details/NationalAdvisoryBoard/Dr13.jpg";
 // import NationalImage7 from "../../assets/images/event-details/NationalImage/Anil-Pandey.jpg";
 // import Peoples14 from "../../assets/images/event-details/NatyionalAdvisoryBoard/Dr14.jpg";
-// import Peoples15 from "../../assets/images/event-details/NationalAdvisoryBoard/Dr15.jpg";
+ import Peoples15 from "../../assets/images/event-details/NationalAdvisoryBoard/Dr15.jpg";
  import Peoples16 from "../../assets/images/event-details/NationalAdvisoryBoard/Dr16.jpg";
 // import Peoples17 from "../../assets/images/event-details/NationalAdvisoryBoard/Dr17.jpg";
 // import Peoples18 from "../../assets/images/event-details/NationalAdvisoryBoard/Dr18.jpg";
@@ -432,15 +432,6 @@ export default function NationalAdvisoryBoard() {
           </Card.Body>
         </Card>
       </Col>
-      <Col sm={6} md={3} className="pt-4">
-        <Card className="box-sdow">
-          <Card.Img variant="top" src={Peoples15} />
-          <Card.Body className="pb-0">
-            <Card.Title>Rajendra Singh Shekhawat 'Daanta'</Card.Title>
-            <Card.Text className="m-0">Social Activist (Rajasthan)</Card.Text>
-          </Card.Body>
-        </Card>
-      </Col> */}
       
       <Col sm={6} md={3} className="pt-4">
         <Card className="box-sdow">
