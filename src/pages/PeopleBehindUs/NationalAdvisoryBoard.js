@@ -33,6 +33,8 @@ import "./PeopleBehindUs.css";
 import Col from "react-bootstrap/Col";
 
 export default function NationalAdvisoryBoard() {
+  console.log('This is national advisory board');
+  
   return (
     <Row className="mt-5 doml">
      <Col sm={6} md={3} className="pt-4">
