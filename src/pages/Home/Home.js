@@ -11,6 +11,7 @@ import Events from '../../components/Home/Events/Events';
 import Tabs from '../../components/Home/Tabs/Tabs';
 import VideoSection from '../../components/Home/VideoSection/VideoSection';
 import Footer from '../../components/Footer/Footer';
+import VideoCarousel from './VideoCarousel';
 
 
 
@@ -71,8 +72,9 @@ export default function Home() {
         <div className="home">
             <div className='main'>
                 <Navbar links={linksForHome} />
-
+                <VideoCarousel/>
                 <div className="header-image-container">
+                
                     <Map />
                     <div className="scroll-indicator">
                         <div>
