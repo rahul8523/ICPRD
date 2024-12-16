@@ -12,7 +12,7 @@ import Col from "react-bootstrap/Col";
 export default function GlobalAdvisoryBoard() {
   return (
 
-    <Row className="mt-5">
+    <Row className="mt-5 justify-content-center">
       {/* <Col sm={12} md={3}>
         <Card className="box-sdow">
           <Card.Img variant="top" src={Dummy} />
@@ -53,7 +53,7 @@ export default function GlobalAdvisoryBoard() {
         </Card>
       </Col>
       {/* New add here */}
-      <Col className="mt-2" sm={12} md={3}>
+      <Col className="" sm={12} md={3}>
         <Card className="box-sdow">
           <Card.Img variant="top" src={Dummy} />
           <Card.Body className="pb-0">
