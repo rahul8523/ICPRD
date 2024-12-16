@@ -13,7 +13,7 @@ import Col from "react-bootstrap/Col";
 export default function PresidentDesk() {
     return (
 
-        <Row className="mt-5">
+        <Row className="mt-5 justify-content-center">
          <Col sm={6} md={3}>
         <Card className="box-sdow">
           <Card.Img variant="top" src={NationalImage} />

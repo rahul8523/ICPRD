@@ -123,7 +123,7 @@ export default function NationalTeam() {
         </Card>
       </Col>
 
-      <Col sm={6} md={3}>
+      <Col className="pt-4" sm={6} md={3}>
         <Card className="box-sdow">
           <Card.Img variant="top" src={NationalImage9} />
           <Card.Body className="pb-0">

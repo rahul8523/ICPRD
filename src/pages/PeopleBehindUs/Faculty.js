@@ -16,7 +16,7 @@ import Col from "react-bootstrap/Col";
 export default function Faculty() {
     return (
 
-        <Row className="mt-5 doml">
+        <Row className="mt-5 doml justify-content-center">
         <Col sm={12} md={3}>
           <Card className="box-sdow">
             <Card.Img variant="top" src={Dummy} />
