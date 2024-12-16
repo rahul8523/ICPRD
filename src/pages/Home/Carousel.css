@@ -35,7 +35,7 @@
 }
 
 .video-section .carousel .list .item:nth-child(3) {
-    left:42%;
+    left:40%;
 }
 
 .video-section .carousel .list .item:nth-child(4) {
@@ -43,15 +43,15 @@
 }
 
 .video-section .carousel .list .item:nth-child(5) {
-    left: calc(67% + 400px);
+    left: calc(77% + 400px);
 }
 
 .video-section .carousel .list .item:nth-child(6) {
-    left: calc(67% + 600px);
+    left: calc(77% + 600px);
 }
 
 .video-section .carousel .list .item:nth-child(n+7) {
-    left: calc(67% + 800px);
+    left: calc(77% + 800px);
     opacity: 0;
 }
 
