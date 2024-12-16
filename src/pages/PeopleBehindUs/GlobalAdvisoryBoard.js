@@ -23,7 +23,7 @@ export default function GlobalAdvisoryBoard() {
         </Card>
       </Col> */}
 
-      <Col sm={12} md={3}>
+      {/* <Col sm={12} md={3}>
         <Card className="box-sdow">
           <Card.Img variant="top" src={Dummy} />
           <Card.Body className="pb-0">
@@ -31,7 +31,7 @@ export default function GlobalAdvisoryBoard() {
             <Card.Text className="m-0">Advocate, (USA)</Card.Text>
           </Card.Body>
         </Card>
-      </Col>
+      </Col> */}
 
       {/* <Col sm={12} md={3}>
         <Card className="box-sdow">

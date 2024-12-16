@@ -18,6 +18,8 @@ import Peoples11 from "../../assets/images/event-details/NationalAdvisoryBoard/D
 // import Peoples14 from "../../assets/images/event-details/NatyionalAdvisoryBoard/Dr14.jpg";
 import Peoples15 from "../../assets/images/event-details/NationalAdvisoryBoard/Dr15.jpg";
 import Peoples16 from "../../assets/images/event-details/NationalAdvisoryBoard/Dr16.jpg";
+
+
 // import Peoples17 from "../../assets/images/event-details/NationalAdvisoryBoard/Dr17.jpg";
 // import Peoples18 from "../../assets/images/event-details/NationalAdvisoryBoard/Dr18.jpg";
 // import Peoples19 from "../../assets/images/event-details/NationalAdvisoryBoard/Dr19.jpg";
@@ -35,6 +37,8 @@ import Col from "react-bootstrap/Col";
 export default function NationalAdvisoryBoard() {
   return (
     <Row className="mt-5 doml">
+
+      
       {/* <Col sm={6} md={3} className="pt-4">
         <Card className="box-sdow">
           <Card.Img variant="top" src={Peoples16} />
