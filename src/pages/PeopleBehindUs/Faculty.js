@@ -42,12 +42,12 @@ export default function Faculty() {
             <Card.Img variant="top" src={Dummy} />
             <Card.Body className="pb-0">
               <Card.Title>Prof. Sanjeev Tiwari</Card.Title>
-              <Card.Text className="m-0"> Principal Maharaja Agrasen College & University of Delhi </Card.Text>
+              <Card.Text className="m-0"> Principal Maharaja Agrasen College, DU </Card.Text>
             </Card.Body>
            </Card>
         </Col>
 
-        <Col sm={12} md={3}>
+        {/* <Col sm={12} md={3}>
           <Card className="box-sdow">
             <Card.Img variant="top" src={Dummy} />
             <Card.Body className="pb-0">
@@ -55,7 +55,7 @@ export default function Faculty() {
               <Card.Text className="m-0"> NPL </Card.Text>
             </Card.Body>
            </Card>
-        </Col>
+        </Col> */}
 
 
         <Col sm={12} md={3}>
@@ -68,7 +68,7 @@ export default function Faculty() {
            </Card>
         </Col>
 
-        <Col sm={12} md={3}>
+        {/* <Col sm={12} md={3}>
           <Card className="box-sdow">
             <Card.Img variant="top" src={Dummy} />
             <Card.Body className="pb-0">
@@ -76,9 +76,9 @@ export default function Faculty() {
               <Card.Text className="m-0"> MBBS, MS Ortho </Card.Text>
             </Card.Body>
            </Card>
-        </Col>
+        </Col> */}
 
-        <Col sm={12} md={3}>
+        {/* <Col sm={12} md={3}>
           <Card className="box-sdow">
             <Card.Img variant="top" src={Dummy} />
             <Card.Body className="pb-0">
@@ -86,9 +86,9 @@ export default function Faculty() {
               <Card.Text className="m-0">-</Card.Text>
             </Card.Body>
            </Card>
-        </Col>
+        </Col> */}
 
-        <Col sm={12} md={3}>
+        {/* <Col sm={12} md={3}>
           <Card className="box-sdow">
             <Card.Img variant="top" src={Dummy} />
             <Card.Body className="pb-0">
@@ -96,9 +96,9 @@ export default function Faculty() {
               <Card.Text className="m-0"> -</Card.Text>
             </Card.Body>
            </Card>
-        </Col>
+        </Col> */}
 
-        <Col sm={12} md={3}>
+        {/* <Col sm={12} md={3}>
           <Card className="box-sdow">
             <Card.Img variant="top" src={Dummy} />
             <Card.Body className="pb-0">
@@ -106,10 +106,10 @@ export default function Faculty() {
               <Card.Text className="m-0"> Dean Tata Institute of Social Sciences , Mumbai</Card.Text>
             </Card.Body>
            </Card>
-        </Col>
+        </Col> */}
 
 
-        <Col sm={12} md={3}>
+        {/* <Col sm={12} md={3}>
           <Card className="box-sdow">
             <Card.Img variant="top" src={Dummy} />
             <Card.Body className="pb-0">
@@ -117,10 +117,10 @@ export default function Faculty() {
               <Card.Text className="m-0"> CIF, DU, New Education Policy </Card.Text>
             </Card.Body>
            </Card>
-        </Col>
+        </Col> */}
 
         
-        <Col sm={12} md={3}>
+        {/* <Col sm={12} md={3}>
           <Card className="box-sdow">
             <Card.Img variant="top" src={Dummy} />
             <Card.Body className="pb-0">
@@ -128,7 +128,8 @@ export default function Faculty() {
               <Card.Text className="m-0"> Dept of Environmental Studies, Delhi University</Card.Text>
             </Card.Body>
            </Card>
-        </Col>
+        </Col> */}
+        
         {/* <Col sm={12} md={3}>
           <Card className="box-sdow">
             <Card.Img variant="top" src={Faculty2} />

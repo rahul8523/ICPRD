@@ -18,7 +18,7 @@ export default function Patrons() {
             <Card.Img variant="top" src={Peoples} />
             <Card.Body className="pb-0">
               <Card.Title>H.H. Sri Sri Ravi Shankar</Card.Title>
-              <Card.Text className="m-0">Founder of “The Artgit branch -M main of Living”</Card.Text>
+              <Card.Text className="m-0">Indian guru and spiritual leader</Card.Text>
             </Card.Body> 
           </Card>
         </Col>
