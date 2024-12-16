@@ -2,13 +2,21 @@
 import React, { useEffect, useRef } from "react";
 import "./Carousel.css"; // Ensure you have the CSS file in the same directory
 import BannerOne from '../../assets/images/HOMEPAGE/climate-change.jpg';
+import BannerTwo from '../../assets/images/HOMEPAGE/banner2.jpg';
+import BannerThree from '../../assets/images/HOMEPAGE/banner3.jpg';
+import BannerFour from '../../assets/images/HOMEPAGE/banner4.jpg';
+import BannerFive from '../../assets/images/HOMEPAGE/banner5.jpg';
+import BannerSix from '../../assets/images/HOMEPAGE/banner6.jpg';
+
+
+
 const VideoCarousel = () => {
   const carouselRef = useRef(null);
   const listRef = useRef(null);
   const runningTimeRef = useRef(null);
 
-  const timeRunning = 30000000; // Time for transition animation
-  const timeAutoNext = 70000000; // Auto-next interval
+  const timeRunning = 3000; // Time for transition animation
+  const timeAutoNext = 7000; // Auto-next interval
   let runTimeOut = null;
   let runNextAuto = null;
 
@@ -86,7 +94,7 @@ const VideoCarousel = () => {
             backgroundRepeat: "no-repeat",
             backgroundPosition: "center",
             backgroundSize: "cover",
-            backgroundImage: `url(${BannerOne})`,
+            backgroundImage: `url(${BannerTwo})`,
         }}
         >
           <div className="content">
@@ -104,7 +112,7 @@ const VideoCarousel = () => {
             backgroundRepeat: "no-repeat",
             backgroundPosition: "center",
             backgroundSize: "cover",
-            backgroundImage: `url(${BannerOne})`,
+            backgroundImage: `url(${BannerThree})`,
                 }}
         >
           <div className="content">
@@ -121,7 +129,39 @@ const VideoCarousel = () => {
             backgroundRepeat: "no-repeat",
             backgroundPosition: "center",
             backgroundSize: "cover",
-            backgroundImage: `url(${BannerOne})`,
+            backgroundImage: `url(${BannerFour})`,
+                 }}
+        >
+          <div className="content">
+        
+          
+          </div>
+        </div>
+               {/* Repeat for other items as in the original code */}
+
+               <div
+          className="item"
+          style={{
+            backgroundRepeat: "no-repeat",
+            backgroundPosition: "center",
+            backgroundSize: "cover",
+            backgroundImage: `url(${BannerFive})`,
+                 }}
+        >
+          <div className="content">
+        
+          
+          </div>
+        </div>
+               {/* Repeat for other items as in the original code */}
+
+               <div
+          className="item"
+          style={{
+            backgroundRepeat: "no-repeat",
+            backgroundPosition: "center",
+            backgroundSize: "cover",
+            backgroundImage: `url(${BannerSix})`,
                  }}
         >
           <div className="content">
