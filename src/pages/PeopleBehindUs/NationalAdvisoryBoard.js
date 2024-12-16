@@ -197,7 +197,7 @@ export default function NationalAdvisoryBoard() {
           <Card.Img variant="top" src={Dummy} />
           <Card.Body className="pb-0">
             <Card.Title>Subodh Tiwari	</Card.Title>
-            <Card.Text className="m-0">CEO Kaivalyadhama Yoga Institute, Lonawala</Card.Text>
+            <Card.Text className="m-0">CEO Kaivalyadhama Yoga Institute</Card.Text>
           </Card.Body>
         </Card>
       </Col>
@@ -236,7 +236,7 @@ export default function NationalAdvisoryBoard() {
         <Card className="box-sdow">
           <Card.Img variant="top" src={Dummy} />
           <Card.Body className="pb-0">
-            <Card.Title>Group Captain Vishwajeet Kumar (R)</Card.Title>
+            <Card.Title>Group Captain Vishwajeet Kumar</Card.Title>
             <Card.Text className="m-0">Aviation & Geo-Strategy Expert</Card.Text>
           </Card.Body>
         </Card>
