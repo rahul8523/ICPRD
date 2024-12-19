@@ -7,7 +7,7 @@ import BannerThree from '../../assets/images/HOMEPAGE/banner3.jpg';
 import BannerFour from '../../assets/images/HOMEPAGE/banner4.jpg';
 import BannerFive from '../../assets/images/HOMEPAGE/banner5.jpg';
 import BannerSix from '../../assets/images/HOMEPAGE/banner6.jpg';
-
+import Map from '../../components/Home/Map/Map';
 
 
 const VideoCarousel = () => {
@@ -73,20 +73,6 @@ const VideoCarousel = () => {
     <div className="video-section">
     <div className="carousel" ref={carouselRef}>
       <div className="list" ref={listRef}>
-        <div
-          className="item"
-          style={{
-            backgroundRepeat: "no-repeat",
-            backgroundPosition: "center",
-            backgroundSize: "cover",
-            backgroundImage: `url(${BannerOne})`,
-          }}
-        >
-          <div className="content">
-          
-          </div>
-        </div>
-        {/* Repeat for other items as in the original code */}
 
         <div
           className="item"
@@ -103,6 +89,13 @@ const VideoCarousel = () => {
           </div>
         </div>
         {/* Add other items here with the same structure as above */}
+        <div
+          className="item"
+          style={{background:"black"}}
+        >
+              <Map/>
+        </div>
+        {/* Repeat for other items as in the original code */}
 
            {/* Repeat for other items as in the original code */}
 
@@ -170,16 +163,16 @@ const VideoCarousel = () => {
           </div>
         </div>
                {/* Repeat for other items as in the original code */}
-
+          
       </div>
 
       {/* Next and Previous Buttons */}
       <div className="arrows">
         <button className="prev" onClick={() => showSlider("prev")}>
-          &lt;
+        
         </button>
         <button className="next" onClick={() => showSlider("next")}>
-          &gt;
+       
         </button>
       </div>
 

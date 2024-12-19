@@ -16,7 +16,7 @@ import Patrons from "./Patrons";
 import NationalAdvisoryBoard from "./NationalAdvisoryBoard";
 import NationalTeam from "./NationalTeam";
 import Faculty from "./Faculty";
-import PresidentDesk from "./PresidentDesk";
+// import PresidentDesk from "./PresidentDesk";
 import GlobalAdvisoryBoard from "./GlobalAdvisoryBoard";
 import GlobalTeamIcprd from "./GlobalTeamIcprd";
 
@@ -85,15 +85,15 @@ export default function PeopleBehindUs() {
         <Row>
           <Col sm={6} md={12}>
             <Tabs
-              defaultActiveKey="home"
+              defaultActiveKey="partrons"
               id="fill-tab-example"
               className="my-2 new-tab" 
               fill
               style={{borderBottom:"0px"}}
             >
-              <Tab eventKey="home" title="PRESIDENT DESK" className="btnmores">
+              {/* <Tab eventKey="home" title="PRESIDENT DESK" className="btnmores">
               <PresidentDesk/>
-              </Tab>
+              </Tab> */}
               <Tab eventKey="partrons" title="PATRONS" className="btnmores">
               <Patrons/>
               </Tab>

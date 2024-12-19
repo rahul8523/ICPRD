@@ -29,7 +29,7 @@ export default function Support() {
             { text: 'Rural Urbanisation', url: '/ruralUrbanisation' },
             { text: 'Trade & Commerce', url: '/tradeCommerce' },
             { text: 'Agriculture', url: '/agriculture' },
-            { text: 'Healthcare', url: '/' },
+            { text: 'HealthCare', url: '/healthcare' },
         ]
     },
     {
@@ -110,6 +110,9 @@ export default function Support() {
           partisan interests.
         </p>
        
+      </div>
+      <div className="economicGraph py-3">
+        <a><button className="button-more">Declaration of Contributions</button></a>
       </div>
       <div className="economicGraph py-3">
         <a href="https://pages.razorpay.com/icprdpay" target="_blank" rel="noreferrer"><img src={Graph} alt="" style={{width:"25%"}}/></a>

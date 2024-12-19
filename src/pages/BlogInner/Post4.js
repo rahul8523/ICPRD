@@ -33,6 +33,7 @@ export default function Post4({ Date, titles }) {
                 { text: 'Rural Urbanisation', url: '/ruralUrbanisation' },
                 { text: 'Trade & Commerce', url: '/tradeCommerce' },
                 { text: 'Agriculture', url: '/agriculture' },
+                { text: 'HealthCare', url: '/healthcare' },
             ]
         },
         {

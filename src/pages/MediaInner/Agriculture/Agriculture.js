@@ -30,6 +30,7 @@ export default function Agriculture() {
                 { text: 'Rural Urbanisation', url: '/ruralUrbanisation' },
                 { text: 'Trade & Commerce', url: '/tradeCommerce' },
                 { text: 'Agriculture', url: '/agriculture' },
+                { text: 'HealthCare', url: '/healthcare' },
             ]
         },
         {

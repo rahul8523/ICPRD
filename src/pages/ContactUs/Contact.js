@@ -7,7 +7,7 @@ import ContactPhone from '../../assets/images/contact/phone.png';
 import Contactel from '../../assets/images/contact/tel.png';
 import './Contact.css'
 
-import BannereconomicPolicy from "../../assets/images/contact/contactsdd.png";
+// import BannereconomicPolicy from "../../assets/images/contact/contactsdd.png";
 import Footer from "../../components/Footer/Footer";
 import Navbar from "../../components/Navbar/Navbar";
 import Banner from "../../components/Banner/Banner";
@@ -15,6 +15,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import SupportUs from "../../components/SupportUs/SupportUs";
+import Map from "../../components/Home/Map/Map";
 
 export default function Contact() {
   const navlinks = [
@@ -39,7 +40,7 @@ export default function Contact() {
             { text: 'Rural Urbanisation', url: '/ruralUrbanisation' },
             { text: 'Trade & Commerce', url: '/tradeCommerce' },
             { text: 'Agriculture', url: '/agriculture' },
-            { text: 'Healthcare', url: '/' },
+            { text: 'HealthCare', url: '/healthcare' },
         ]
     },
     {
@@ -67,16 +68,17 @@ export default function Contact() {
     { text: 'Contact Us', url: '/contact' },
     // ... other links
   ];
-  const bannerDataForPage2 = {
-    backgroundImage: BannereconomicPolicy,
+  const BannerbannerDataForP = {
     text: "Contact Us",
     subText: "Home / Contact Us",
   };
+
   return (
     <div className="economic-policy icprdVerticalPage">
+
       <Navbar links={navlinks} className={"FromDeskOfPresidentPage"} />
-      <Banner {...bannerDataForPage2} />
-      
+      <div style={{backgroundColor:"black",position: "relative",}}><Banner {...BannerbannerDataForP}/></div>
+      <div style={{position: "absolute", top: "20%", right: "0",left: "0"}}><Map/></div>
      <Container style={{width:"90%"}} className="my-5">
         <Row>
         <Col sm={12} md={5} className="p-0">

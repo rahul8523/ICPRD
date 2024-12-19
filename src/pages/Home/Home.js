@@ -1,7 +1,6 @@
 import React from 'react'
 import Navbar from '../../components/Navbar/Navbar'
 import "./Home.css"
-import Map from '../../components/Home/Map/Map';
 import AboutSection from '../../components/Home/About/AboutSection';
 import Verticals from '../../components/Home/Verticals/Verticals';
 import SupportUsHome from '../../components/Home/SupportUsHome/SupportUsHome';
@@ -40,7 +39,7 @@ export default function Home() {
                 { text: 'Rural Urbanisation', url: '/ruralUrbanisation' },
                 { text: 'Trade & Commerce', url: '/tradeCommerce' },
                 { text: 'Agriculture', url: '/agriculture' },
-                { text: 'Healthcare', url: '/' },
+                { text: 'HealthCare', url: '/healthcare' },
             ]
         },
         {
@@ -74,8 +73,7 @@ export default function Home() {
                 <Navbar links={linksForHome} />
                 <VideoCarousel/>
                 <div className="header-image-container">
-                
-                    <Map />
+     
                     <div className="scroll-indicator">
                         <div>
                             Scroll to down to <br /> begin <br /> <span><i className="ri-arrow-left-s-line"></i></span>

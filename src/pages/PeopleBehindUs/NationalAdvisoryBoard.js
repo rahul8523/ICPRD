@@ -14,7 +14,7 @@ import Peoples9 from "../../assets/images/event-details/NationalAdvisoryBoard/Dr
 import Peoples11 from "../../assets/images/event-details/NationalAdvisoryBoard/Dr11.jpg";
 // import Peoples12 from "../../assets/images/event-details/NationalAdvisoryBoard/Dr12.jpg";
 // import Peoples13 from "../../assets/images/event-details/NationalAdvisoryBoard/Dr13.jpg";
-// import NationalImage7 from "../../assets/images/event-details/NationalImage/Anil-Pandey.jpg";
+import NationalImage7 from "../../assets/images/event-details/NationalImage/Anil-Pandey.jpg";
 // import Peoples14 from "../../assets/images/event-details/NatyionalAdvisoryBoard/Dr14.jpg";
 import Peoples15 from "../../assets/images/event-details/NationalAdvisoryBoard/Dr15.jpg";
 import Peoples16 from "../../assets/images/event-details/NationalAdvisoryBoard/Dr16.jpg";
@@ -86,7 +86,7 @@ export default function NationalAdvisoryBoard() {
           <Card.Body className="pb-0">
             <Card.Title>Prof. Rita Bahuguna Joshi</Card.Title>
             <Card.Text className="m-0">
-              Ex. Member of Parliament
+               (Ex. member of Parliament)
             </Card.Text>
           </Card.Body>
         </Card>
@@ -97,9 +97,9 @@ export default function NationalAdvisoryBoard() {
         <Card className="box-sdow">
           <Card.Img variant="top" src={rnsingh} />
           <Card.Body className="pb-0">
-            <Card.Title>Padmashri Dr. R. N. Singh</Card.Title>
+            <Card.Title>Padma Shri Dr. R. N. Singh</Card.Title>
             <Card.Text className="m-0">
-              MBBS, M.S. Ortho, FRCS
+               (MBBS, MS. Orth. FRCS)
             </Card.Text>
           </Card.Body>
         </Card>
@@ -109,20 +109,29 @@ export default function NationalAdvisoryBoard() {
         <Card className="box-sdow">
           <Card.Img variant="top" src={Peoples9} />
           <Card.Body className="pb-0">
-            <Card.Title>Prof. Chandramauli Upadhyay(Ph.D)</Card.Title>
+            <Card.Title>Prof. Chandramauli Upadhyay</Card.Title>
             <Card.Text className="m-0">
-              Banaras Hindu University
+            (Banaras Hindu University)
             </Card.Text>
           </Card.Body>
         </Card>
       </Col>
+      <Col sm={6} md={3} className="pt-4">
+        <Card className="box-sdow">
+          <Card.Img variant="top" src={Dummy} />
+          <Card.Body className="pb-0">
+            <Card.Title>Shyam Jaju</Card.Title>
+            <Card.Text className="m-0">(Ex. Vice President, BJP)</Card.Text>
+          </Card.Body>
+        </Card>
+      </Col> 
 
       <Col sm={6} md={3} className="pt-4">
         <Card className="box-sdow">
           <Card.Img variant="top" src={Peoples3} />
           <Card.Body className="pb-0">
             <Card.Title>Dilip Cherian</Card.Title>
-            <Card.Text className="m-0">Image Guru & Litigation Landscaping</Card.Text>
+            <Card.Text className="m-0">(Image Guru & Litigation Landscaping)</Card.Text>
           </Card.Body>
         </Card>
       </Col>
@@ -134,7 +143,7 @@ export default function NationalAdvisoryBoard() {
           <Card.Body className="pb-0">
             <Card.Title>Lt. Gen. Shantanu Dayal</Card.Title>
             <Card.Text className="m-0">
-              UYSM, AVSM, SM, VSM
+            (UYSM, AVSM, SM, VSM)
             </Card.Text>
           </Card.Body>
         </Card>
@@ -146,7 +155,7 @@ export default function NationalAdvisoryBoard() {
           <Card.Body className="pb-0">
             <Card.Title>Dr. S K Verma</Card.Title>
             <Card.Text className="m-0">
-              Senior Advocate, Supreme Court of India
+            (Senior Advocate, Supreme Court of India)
             </Card.Text>
           </Card.Body>
         </Card>
@@ -158,7 +167,7 @@ export default function NationalAdvisoryBoard() {
           <Card.Body className="pb-0">
             <Card.Title>Dr. Khwaja Iftikhar Ahmed</Card.Title>
             <Card.Text className="m-0">
-              Prominent Indian Scholar
+            (Prominent Islamic Scholar)
             </Card.Text>
           </Card.Body>
         </Card>
@@ -169,7 +178,7 @@ export default function NationalAdvisoryBoard() {
           <Card.Img variant="top" src={Peoples5} />
           <Card.Body className="pb-0">
             <Card.Title>Mrinal Doval</Card.Title>
-            <Card.Text className="m-0">Senior Political Activist</Card.Text>
+            <Card.Text className="m-0">(Senior & Political Activist)</Card.Text>
           </Card.Body>
         </Card>
       </Col>
@@ -181,7 +190,7 @@ export default function NationalAdvisoryBoard() {
           <Card.Img variant="top" src={Peoples15} />
           <Card.Body className="pb-0">
             <Card.Title>Rajendra Singh Shekhawat</Card.Title>
-            <Card.Text className="m-0">Social Political Activist</Card.Text>
+            <Card.Text className="m-0">(Social & Political Activist)</Card.Text>
           </Card.Body>
         </Card>
       </Col>
@@ -191,7 +200,7 @@ export default function NationalAdvisoryBoard() {
           <Card.Img variant="top" src={Dummy} />
           <Card.Body className="pb-0">
             <Card.Title> Arvind Belad </Card.Title>
-            <Card.Text className="m-0">MLA Karnataka</Card.Text>
+            <Card.Text className="m-0">(Social & Political Activist)</Card.Text>
           </Card.Body>
         </Card>
       </Col>
@@ -201,7 +210,7 @@ export default function NationalAdvisoryBoard() {
           <Card.Img variant="top" src={Dummy} />
           <Card.Body className="pb-0">
             <Card.Title>Subodh Tiwari	</Card.Title>
-            <Card.Text className="m-0">CEO Kaivalyadhama Yoga Institute</Card.Text>
+            <Card.Text className="m-0">(CEO, Kaivalyadham Yoga Institute)</Card.Text>
           </Card.Body>
         </Card>
       </Col>
@@ -211,7 +220,7 @@ export default function NationalAdvisoryBoard() {
           <Card.Img variant="top" src={Dummy} />
           <Card.Body className="pb-0">
             <Card.Title> Rakesh K. Shukla   </Card.Title>
-            <Card.Text className="m-0">Social Political Activist</Card.Text>
+            <Card.Text className="m-0">(Social & Political Activist)</Card.Text>
           </Card.Body>
         </Card>
       </Col>
@@ -221,7 +230,7 @@ export default function NationalAdvisoryBoard() {
           <Card.Img variant="top" src={Dummy} />
           <Card.Body className="pb-0">
             <Card.Title> Dr. Rajesh Mehta </Card.Title>
-            <Card.Text className="m-0">Geo-Strategy & Diplomacy</Card.Text>
+            <Card.Text className="m-0">(Geo-Strategy & Diplomacy)</Card.Text>
           </Card.Body>
         </Card>
       </Col>
@@ -231,7 +240,7 @@ export default function NationalAdvisoryBoard() {
           <Card.Img variant="top" src={Dummy} />
           <Card.Body className="pb-0">
             <Card.Title>Mahesh Gupta</Card.Title>
-            <Card.Text className="m-0">Chairman, Kent RO Systems</Card.Text>
+            <Card.Text className="m-0">(Chairman, Kent RO Systmes)</Card.Text>
           </Card.Body>
         </Card>
       </Col>
@@ -241,20 +250,44 @@ export default function NationalAdvisoryBoard() {
           <Card.Img variant="top" src={Dummy} />
           <Card.Body className="pb-0">
             <Card.Title>Group Captain Vishwajeet Kumar</Card.Title>
-            <Card.Text className="m-0">Aviation & Geo-Strategy Expert</Card.Text>
+            <Card.Text className="m-0">(Aviation & Geo-Strategy Expert)</Card.Text>
           </Card.Body>
         </Card>
       </Col>
 
-      {/* <Col sm={6} md={3} className="pt-4">
+      
+      <Col sm={6} md={3} className="pt-4">
+        <Card className="box-sdow">
+          <Card.Img variant="top" src={Dummy} />
+          <Card.Body className="pb-0">
+            <Card.Title>CA Rajesh Sinha</Card.Title>
+            <Card.Text className="m-0">Finance Expert</Card.Text>
+          </Card.Body>
+        </Card>
+      </Col>
+
+
+     <Col sm={6} md={3} className="pt-4">
+        <Card className="box-sdow">
+          <Card.Img variant="top" src={NationalImage7} />
+          <Card.Body className="pb-0">
+            <Card.Title>Anil Pandey</Card.Title>
+            <Card.Text className="m-0">(Senior Journalist)</Card.Text>
+          </Card.Body>
+        </Card>
+      </Col>
+
+
+
+      <Col sm={6} md={3} className="pt-4">
         <Card className="box-sdow">
           <Card.Img variant="top" src={Poonam} />
           <Card.Body className="pb-0">
             <Card.Title>Poonam Koura</Card.Title>
-            <Card.Text className="m-0">-</Card.Text>
+            <Card.Text className="m-0">(Socio-Economic Strategic Consultant)</Card.Text>
           </Card.Body>
         </Card>
-      </Col> */}
+      </Col>
 
 
       {/* <Col sm={6} md={3} className="pt-4">
@@ -504,15 +537,7 @@ export default function NationalAdvisoryBoard() {
           </Card.Body>
         </Card>
       </Col> */}
-      {/* <Col sm={6} md={3} className="pt-4">
-        <Card className="box-sdow">
-          <Card.Img variant="top" src={NationalImage7} />
-          <Card.Body className="pb-0">
-            <Card.Title>Anil Pandey</Card.Title>
-            <Card.Text className="m-0">Press</Card.Text>
-          </Card.Body>
-        </Card>
-      </Col> */}
+      
 
       {/* <Col sm={6} md={3} className="pt-4">
         <Card className="box-sdow">

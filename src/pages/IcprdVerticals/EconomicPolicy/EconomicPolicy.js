@@ -31,7 +31,7 @@ export default function EconomicPolicy() {
             { text: 'Rural Urbanisation', url: '/ruralUrbanisation' },
             { text: 'Trade & Commerce', url: '/tradeCommerce' },
             { text: 'Agriculture', url: '/agriculture' },
-            { text: 'Healthcare', url: '/' },
+            { text: 'HealthCare', url: '/healthcare' },
         ]
     },
     {

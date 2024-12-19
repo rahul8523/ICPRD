@@ -42,6 +42,7 @@ import News5 from './pages/NewsInner/News5';
 import News6 from './pages/NewsInner/News6';
 import News7 from './pages/NewsInner/News7';
 import NewsPost from './pages/News/NewsPost';
+import HealthCare from './pages/IcprdVerticals/HealthCare/HealthCare';
 // import RuralUrbanisation from './pages/IcprdVeriticals/RuralUrbanisation/RuralUrbanisation';
 // import TradeAndCommerce from './pages/IcprdVeriticals/TradeAndCommerce/TradeAndCommerce';
 // import Agriculture from './pages/IcprdVeriticals/Agriculture/Agriculture';
@@ -64,6 +65,7 @@ function App() {
           <Route path="/ruralUrbanisation" element={<RuralUrbanisation />} />
           <Route path="/tradeCommerce" element={<TradeAndCommerce />} />
           <Route path="/agriculture" element={<Agriculture />} />
+          <Route path="/healthcare" element={<HealthCare/>} />
 
           <Route path="/media-reports" element={<MediaReports />} />
           <Route path="/people-behind-us" element={<PeopleBehindUs />} />

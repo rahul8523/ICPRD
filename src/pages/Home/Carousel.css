@@ -9,24 +9,23 @@
 
 
 .video-section .carousel .list .item {
-    width: 100px;
-    height: 140px;
+    width:0px;
+    height:0px;
     position: absolute;
-    content: "name here";
-    top: 82%;
+    top: 80%;
     transform: translateY(-70%);
     left: 70%;
     border-radius: 20px;
     box-shadow: 0 25px 50px rgba(0, 0, 0, 0.3);
-    background-position:95% 50% !important;
+    background-position: 50% 50%;
     background-size: cover;
-    z-index: 1;
+    z-index: 100;
     transition: 1s;
 }
 
 .video-section .carousel .list .item:nth-child(1),
 .video-section .carousel .list .item:nth-child(2) {
-    top: 0;
+    top:0px;
     left: 0;
     transform: translate(0, 0);
     border-radius: 0;
@@ -35,23 +34,23 @@
 }
 
 .video-section .carousel .list .item:nth-child(3) {
-    left:40%;
+    left: 67%;
 }
 
-.video-section .carousel .list .item:nth-child(4) {
-    left: calc(35% + 200px);
+.carousel .list .item:nth-child(4){
+    left: calc(67% + 200px);
 }
 
-.video-section .carousel .list .item:nth-child(5) {
-    left: calc(77% + 400px);
+.carousel .list .item:nth-child(5){
+    left: calc(67% + 400px);
 }
 
-.video-section .carousel .list .item:nth-child(6) {
-    left: calc(77% + 600px);
+.carousel .list .item:nth-child(6){
+    left: calc(67% + 600px);
 }
 
-.video-section .carousel .list .item:nth-child(n+7) {
-    left: calc(77% + 800px);
+.carousel .list .item:nth-child(n+7){
+    left: calc(67% + 800px);
     opacity: 0;
 }
 
@@ -157,25 +156,23 @@
 
 .video-section .arrows {
     position: absolute;
-    top: 80%;
-    right: 52%;
+    top: 90%;
+    right: 50%;
     z-index: 100;
-    width: 300px;
-    max-width: 30%;
-    display: flex;
-    gap: 10px;
-    align-items: center;
+    width: 99%;
+    left: 50%;
 }
 
 .video-section .arrows button {
-    width: 50px;
-    height: 50px;
+    width:12px;
+    height: 12px;
     border-radius: 50%;
     background-color: #03bdbe;
     color: #fff;
     border: none;
     outline: none;
     font-size: 16px;
+    margin: 5px;
     font-family: monospace;
     font-weight: bold;
     transition: .5s;

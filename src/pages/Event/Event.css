@@ -1,5 +1,6 @@
 .box-sdow {
   box-shadow: none !important;
+  border: 1px solid;
 }
 
 .morevent .nav-link{
