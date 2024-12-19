@@ -240,12 +240,12 @@
 
 @media screen and (max-width: 2350px) {
   .tab-component .card-list {
-    height: 22vw;
+    height: 35vw;
   }
 }
 @media screen and (max-width: 1865px) {
   .tab-component .card-list {
-    height: 25vw;
+    height: 35vw;
   }
 }
 @media screen and (max-width: 1700px) {
@@ -255,29 +255,29 @@
 }
 @media screen and (max-width: 1650px) {
   .tab-component .card-list {
-    height: 25vw;
+    height: 35vw;
   }
 }
 
 @media screen and (max-width:1500px) {
   .tab-component .card-list {
-    height: 33vw;
+    height: 35vw;
   }
 }
 
 @media screen and (max-width:1400px) {
   .tab-component .card-list {
-    height: 27vw;
+    height:30vw;
   }
 }
 @media screen and (max-width:1300px) {
   .tab-component .card-list {
-    height: 22vw;
+    height: 35vw;
   }
 }
 @media screen and (max-width: 1200px) {
   .tab-component .card-list {
-    height: 50vw;
+    height: 40vw;
   }
 }
 @media screen and (max-width: 1000px) {

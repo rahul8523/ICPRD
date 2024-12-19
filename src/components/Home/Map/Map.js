@@ -254,7 +254,7 @@ polygonTemplate.strokeWidth = 0.5;
       <div style={{ display: "flex", justifyContent: "center" }}>
         <div
           id="chartdiv"
-          style={{ width: "100%", height: "80vh", minWidth: "1000px" }}
+          style={{ width: "100%", height: "60vh", minWidth: "1000px" }}
         ></div>
       </div>
     );

@@ -21,10 +21,10 @@ for financial support from independent sources so that our work and mission in t
 
         </div>
         <div className='whoWeAre'>
-        <article> 
+             <article> 
                 <h1 className='whoweare'>Who We Are</h1>
             </article>
-            <div>Our years of experience have laid the foundation to build a portfolio of 8 verticals from Agriculture to Climate Change, Food Security and Education.</div>
+            {/* <div>Our years of experience have laid the foundation to build a portfolio of 8 verticals from Agriculture to Climate Change, Food Security and Education.</div> */}
         </div>
     </div>
   )

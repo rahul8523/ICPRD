@@ -3,7 +3,7 @@
 }
 .icprdEvents header {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   padding: 1rem 5rem;
@@ -39,18 +39,18 @@
 
 .icprdEvents header button {
   border: none;
-  line-height: 30px;
-  background: #03bdbe;
-  width: 230px;
+  background: #900000;
+  width: 120px;
   text-align: center;
   font-family: "Optima" !important;
   font-weight: bold;
   letter-spacing: 0px;
-  font-size: 28px;
+  font-size: 14px;
   border-bottom: 5px solid #ebaa01;
   margin: auto;
   color: white;
   padding: 0.2rem 0.5rem;
+  border-radius: 30px;
 }
 
 .icprdEvents .event-section {
@@ -124,25 +124,25 @@
 
 @media (max-width:1900px) and (min-width:1600px){
   .icprdEvents .event-section {     
-    height: 82vh;
+    height: 60vh;
   }
 }
  @media screen and (max-width: 1500px) {
     .icprdEvents .event-section {     
-        height: 70vh;
+        height:50vh;
       }
 }
 
 @media screen and (max-width: 1400px) {
   .icprdEvents .event-section {     
-      height: 70vh;
+      height: 50vh;
     }
 }
 
 
 @media screen and (max-width: 1050px) {
   .icprdEvents .event-section {
-    height: 600px;
+    height: 400px;
   }
 }
 @media screen and (max-width: 700px) {

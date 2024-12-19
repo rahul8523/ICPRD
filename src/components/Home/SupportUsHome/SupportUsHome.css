@@ -73,3 +73,6 @@
       letter-spacing: 0.3px;
       line-height: 1.5rem;
   }
+  .whoWeAre{
+    justify-content: center !important;
+  }

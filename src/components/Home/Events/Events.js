@@ -137,8 +137,6 @@ export default function Events() {
                 <div>
                     <h1>ICPRD Events</h1>
                 </div>
-                <Nav.Link href="/event"><button>All EVENT LIST</button></Nav.Link>
-
             </header>
             <div className="event-card-wrapper" >
             <input type="radio" name="sliderEvent" class="d-none" id="e0" checked={"e0" === `e${currentCard}`} />
@@ -166,6 +164,12 @@ export default function Events() {
 
             <div className="carousel-dots">{renderDots()}
                 <hr className="slider-hr" /></div>
+
+                <header>
+
+                <Nav.Link href="/event"><button>More Event</button></Nav.Link>
+
+            </header>
         </div>
     )
 }

@@ -58,10 +58,8 @@ onClick={(e) => handleDotClick(e, index)} className={`carousel-dot ${index === c
     <div className="videoSection">
       <header>
         <div>
-
           <h1>Videos</h1>
         </div>
-        <Nav.Link href="https://www.youtube.com/@icprd/videos" target="_blank"><button>View All</button></Nav.Link>
 
       </header>
       <div className="video-wrapper">
@@ -83,7 +81,10 @@ onClick={(e) => handleDotClick(e, index)} className={`carousel-dot ${index === c
       </div>
       <div className="carousel-dots domrt" >{renderDots()}
                 <hr className="slider-hr" /></div>
+                <header className='pb-5'>
+        <Nav.Link href="https://www.youtube.com/@icprd/videos" target="_blank"><button>View All</button></Nav.Link>
 
+      </header>
     </div>
   )
 }
