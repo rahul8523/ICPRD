@@ -26,35 +26,35 @@ export default function PeopleBehindUs() {
     {
       text: 'About us', url: '/aboutUs',
       dropdown: false,
-        dropdownOptions: [
-            { text: 'About Us', url: '/aboutUs' },
-            { text: 'President Desk', url: '/president' },
-        ],
+      dropdownOptions: [
+        { text: 'About Us', url: '/aboutUs' },
+        { text: 'President Desk', url: '/president' },
+      ],
     },
     {
-        text: 'Verticals',
-        dropdown: true,
-        dropdownOptions: [
-            { text: 'Economic Policy', url: '/economicPolicy' },
-            { text: 'International Relations & Foreign Policy', url: '/intrel' },
-            { text: 'Climate Change', url: '/climateChange' },
-            { text: 'Food Security', url: '/foodSecurity' },
-            { text: 'Education & Training', url: '/educationTraining' },
-            { text: 'Rural Urbanisation', url: '/ruralUrbanisation' },
-            { text: 'Trade & Commerce', url: '/tradeCommerce' },
-            { text: 'Agriculture', url: '/agriculture' },
-            { text: 'Healthcare', url: '/' },
-        ]
+      text: 'Verticals',
+      dropdown: true,
+      dropdownOptions: [
+        { text: 'Economic Policy', url: '/economicPolicy' },
+        { text: 'International Relations & Foreign Policy', url: '/intrel' },
+        { text: 'Climate Change', url: '/climateChange' },
+        { text: 'Food Security', url: '/foodSecurity' },
+        { text: 'Education & Training', url: '/educationTraining' },
+        { text: 'Rural Urbanisation', url: '/ruralUrbanisation' },
+        { text: 'Trade & Commerce', url: '/tradeCommerce' },
+        { text: 'Agriculture', url: '/agriculture' },
+        { text: 'Healthcare', url: '/' },
+      ]
     },
     {
-        text: 'Media',
-        dropdown: true,
-        dropdownOptions: [
-            { text: 'Media Report', url: '' },
-            { text: 'News', url: '/news' },
-            { text: 'Article', url: '/research-articles' },
-            { text: 'Blog', url: '/blog' },
-        ],
+      text: 'Media',
+      dropdown: true,
+      dropdownOptions: [
+        { text: 'Media Report', url: '' },
+        { text: 'News', url: '/news' },
+        { text: 'Article', url: '/research-articles' },
+        { text: 'Blog', url: '/blog' },
+      ],
     },
     { text: 'Event', url: '/event' },
     { text: 'Team Behind us', url: '/people-behind-us' },
@@ -62,11 +62,11 @@ export default function PeopleBehindUs() {
       text: 'Global Chapter',
       dropdown: true,
       dropdownOptions: [
-          { text: 'USA', url: '/' },
-          { text: 'UK', url: '/' },
-          { text: 'South Africa', url: '/' },
+        { text: 'USA', url: '/' },
+        { text: 'UK', url: '/' },
+        { text: 'South Africa', url: '/' },
       ],
-  },
+    },
     { text: 'Support Us', url: '/support' },
     { text: 'Contact Us', url: '/contact' },
     // ... other links
@@ -87,37 +87,37 @@ export default function PeopleBehindUs() {
             <Tabs
               defaultActiveKey="partrons"
               id="fill-tab-example"
-              className="my-2 new-tab" 
+              className="my-2 new-tab"
               fill
-              style={{borderBottom:"0px"}}
+              style={{ borderBottom: "0px" }}
             >
               {/* <Tab eventKey="home" title="PRESIDENT DESK" className="btnmores">
               <PresidentDesk/>
               </Tab> */}
               <Tab eventKey="partrons" title="PATRONS" className="btnmores">
-              <Patrons/>
-              </Tab>
-              <Tab eventKey="global" title="GLOBAL ADVISORY BOARD" className="btnmores">
-              <GlobalAdvisoryBoard/>
+                <Patrons />
               </Tab>
               <Tab eventKey="profile" title="NATIONAL ADVISORY BOARD">
-              <NationalAdvisoryBoard/>
+                <NationalAdvisoryBoard />
               </Tab>
               <Tab eventKey="longer-tab" title="NATIONAL TEAM ICPRD">
-                <NationalTeam/>
+                <NationalTeam />
               </Tab>
               <Tab eventKey="contact" title="FACULTY ICPRD">
-                <Faculty/>
+                <Faculty />
+              </Tab>
+              <Tab eventKey="global" title="GLOBAL ADVISORY BOARD" className="btnmores">
+                <GlobalAdvisoryBoard />
               </Tab>
               <Tab eventKey="teamicprd" title="GLOBAL TEAM ICPRD">
-                <GlobalTeamIcprd/>
+                <GlobalTeamIcprd />
               </Tab>
             </Tabs>
           </Col>
         </Row>
       </Container>
- 
-      <SupportUs/>
+
+      <SupportUs />
       <Footer />
     </div>
   );
