@@ -7,6 +7,9 @@ import BannerThree from '../../assets/images/HOMEPAGE/banner3.jpg';
 import BannerFour from '../../assets/images/HOMEPAGE/banner4.jpg';
 import BannerFive from '../../assets/images/HOMEPAGE/climate-change.jpg';
 import BannerSix from '../../assets/images/HOMEPAGE/banner2.jpg';
+import BannerSeven from '../../assets/images/HOMEPAGE/Banner7.jpg';
+import BannerEight from '../../assets/images/HOMEPAGE/Banner8.jpg';
+import BannerNine from '../../assets/images/HOMEPAGE/Banner9.jpg';
 import Map from '../../components/Home/Map/Map';
 
 
@@ -17,6 +20,9 @@ import MobileBannerThree from "../../assets/images/HOMEPAGE/mobile/climate-chang
 import MobileBannerFour from "../../assets/images/HOMEPAGE/mobile/climate-change.png";
 import MobileBannerFive from "../../assets/images/HOMEPAGE/mobile/climate-change.png";
 import MobileBannerSix from "../../assets/images/HOMEPAGE/mobile/climate-change.png";
+import MobileBannerSeven from "../../assets/images/HOMEPAGE/mobile/climate-change.png";
+import MobileBannerEight from "../../assets/images/HOMEPAGE/mobile/climate-change.png";
+import MobileBannerNine from "../../assets/images/HOMEPAGE/mobile/climate-change.png";
 
 const VideoCarousel = () => {
   const carouselRef = useRef(null);
@@ -45,6 +51,12 @@ const VideoCarousel = () => {
         return isMobile ? MobileBannerFive : BannerFive;
       case 6:
         return isMobile ? MobileBannerSix : BannerSix;
+      case 7:
+        return isMobile ? MobileBannerSeven : BannerSeven;
+      case 8:
+        return isMobile ? MobileBannerEight : BannerEight;
+      case 9:
+        return isMobile ? MobileBannerNine : BannerNine;
       default:
         return isMobile ? MobileBannerOne : BannerOne;
     }
@@ -59,6 +71,9 @@ const VideoCarousel = () => {
     { id: 4 },
     { id: 5 },
     { id: 6 },
+    { id: 7 },
+    { id: 8 },
+    { id: 9 }
   ];
 
   // Reset animation for progress bar
