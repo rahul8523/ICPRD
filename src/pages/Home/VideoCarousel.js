@@ -7,6 +7,18 @@ import BannerThree from '../../assets/images/HOMEPAGE/banner3.jpg';
 import BannerFour from '../../assets/images/HOMEPAGE/banner4.jpg';
 import BannerFive from '../../assets/images/HOMEPAGE/climate-change.jpg';
 import BannerSix from '../../assets/images/HOMEPAGE/banner2.jpg';
+import BannerSeven from '../../assets/images/HOMEPAGE/Banner7.jpg';
+import BannerEight from '../../assets/images/HOMEPAGE/Banner8.jpg';
+import BannerNine from '../../assets/images/HOMEPAGE/Banner9.jpg';
+import BannerTen from '../../assets/images/HOMEPAGE/BannerThirteen.jpg';
+import BannerEleven from '../../assets/images/HOMEPAGE/BannerEleven.jpg';
+import BannerTwelve from '../../assets/images/HOMEPAGE/BannerTwelve.jpg'
+import BannerThirteen from '../../assets/images/HOMEPAGE/BannerFourteen.jpg'
+import BannerFourteen from '../../assets/images/HOMEPAGE/BannerFifteen.jpg'
+import BannerFifteen from '../../assets/images/HOMEPAGE/BannerSixteen.jpg'
+import BannerSixteen from '../../assets/images/HOMEPAGE/BannerSeventeen.jpg'
+import BannerSeventeen from '../../assets/images/HOMEPAGE/BannerEighteen.jpg'
+import BannerEighteen from '../../assets/images/HOMEPAGE/BannerNineteen.jpg'
 import Map from '../../components/Home/Map/Map';
 
 
@@ -17,6 +29,18 @@ import MobileBannerThree from "../../assets/images/HOMEPAGE/mobile/climate-chang
 import MobileBannerFour from "../../assets/images/HOMEPAGE/mobile/climate-change.png";
 import MobileBannerFive from "../../assets/images/HOMEPAGE/mobile/climate-change.png";
 import MobileBannerSix from "../../assets/images/HOMEPAGE/mobile/climate-change.png";
+import MobileBannerSeven from "../../assets/images/HOMEPAGE/mobile/climate-change.png";
+import MobileBannerEight from "../../assets/images/HOMEPAGE/mobile/climate-change.png";
+import MobileBannerNine from "../../assets/images/HOMEPAGE/mobile/climate-change.png";
+import MobileBannerTen from '../../assets/images/HOMEPAGE/mobile/climate-change.png'
+import MobileBannerEleven from '../../assets/images/HOMEPAGE/mobile/climate-change.png'
+import MobileBannerTwelve from '../../assets/images/HOMEPAGE/mobile/climate-change.png'
+import MobileBannerThirteen from '../../assets/images/HOMEPAGE/mobile/climate-change.png'
+import MobileBannerFourteen from '../../assets/images/HOMEPAGE/mobile/climate-change.png'
+import MobileBannerFifteen from '../../assets/images/HOMEPAGE/mobile/climate-change.png'
+import MobileBannerSixteen from '../../assets/images/HOMEPAGE/mobile/climate-change.png'
+import MobileBannerSeventeen from '../../assets/images/HOMEPAGE/mobile/climate-change.png'
+import MobileBannerEighteen from '../../assets/images/HOMEPAGE/mobile/climate-change.png'
 
 const VideoCarousel = () => {
   const carouselRef = useRef(null);
@@ -45,6 +69,30 @@ const VideoCarousel = () => {
         return isMobile ? MobileBannerFive : BannerFive;
       case 6:
         return isMobile ? MobileBannerSix : BannerSix;
+      case 7:
+        return isMobile ? MobileBannerSeven : BannerSeven;
+      case 8:
+        return isMobile ? MobileBannerEight : BannerEight;
+      case 9:
+        return isMobile ? MobileBannerNine : BannerNine;
+      case 10:
+        return isMobile ? MobileBannerTen : BannerTen;
+      case 11:
+        return isMobile ? MobileBannerEleven : BannerEleven;
+      case 12:
+        return isMobile ? MobileBannerTwelve : BannerTwelve;
+      case 13:
+        return isMobile ? MobileBannerThirteen : BannerThirteen;
+      case 14:
+        return isMobile ? MobileBannerFourteen : BannerFourteen;
+      case 15:
+        return isMobile ? MobileBannerFifteen : BannerFifteen;
+      case 16:
+        return isMobile ? MobileBannerSixteen : BannerSixteen;
+      case 17:
+        return isMobile ? MobileBannerSeventeen : BannerSeventeen;
+      case 18:
+        return isMobile ? MobileBannerEighteen : BannerEighteen;
       default:
         return isMobile ? MobileBannerOne : BannerOne;
     }
@@ -59,6 +107,18 @@ const VideoCarousel = () => {
     { id: 4 },
     { id: 5 },
     { id: 6 },
+    { id: 7 },
+    { id: 8 },
+    { id: 9 },
+    { id: 10 },
+    { id: 11 },
+    { id: 12 },
+    { id: 13 },
+    { id: 14 },
+    { id: 15 },
+    { id: 16 },
+    { id: 17 },
+    { id: 18 }
   ];
 
   // Reset animation for progress bar
