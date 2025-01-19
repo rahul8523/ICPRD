@@ -24,22 +24,22 @@ import Map from '../../components/Home/Map/Map';
 
 // Import Mobile Images
 import MobileBannerOne from "../../assets/images/HOMEPAGE/mobile/climate-change.png";
-import MobileBannerTwo from "../../assets/images/HOMEPAGE/mobile/climate-change.png";
-import MobileBannerThree from "../../assets/images/HOMEPAGE/mobile/climate-change.png";
-import MobileBannerFour from "../../assets/images/HOMEPAGE/mobile/climate-change.png";
-import MobileBannerFive from "../../assets/images/HOMEPAGE/mobile/climate-change.png";
-import MobileBannerSix from "../../assets/images/HOMEPAGE/mobile/climate-change.png";
-import MobileBannerSeven from "../../assets/images/HOMEPAGE/mobile/climate-change.png";
-import MobileBannerEight from "../../assets/images/HOMEPAGE/mobile/climate-change.png";
-import MobileBannerNine from "../../assets/images/HOMEPAGE/mobile/climate-change.png";
-import MobileBannerTen from '../../assets/images/HOMEPAGE/mobile/climate-change.png'
-import MobileBannerEleven from '../../assets/images/HOMEPAGE/mobile/climate-change.png'
-import MobileBannerTwelve from '../../assets/images/HOMEPAGE/mobile/climate-change.png'
-import MobileBannerThirteen from '../../assets/images/HOMEPAGE/mobile/climate-change.png'
-import MobileBannerFourteen from '../../assets/images/HOMEPAGE/mobile/climate-change.png'
-import MobileBannerFifteen from '../../assets/images/HOMEPAGE/mobile/climate-change.png'
-import MobileBannerSixteen from '../../assets/images/HOMEPAGE/mobile/climate-change.png'
-import MobileBannerSeventeen from '../../assets/images/HOMEPAGE/mobile/climate-change.png'
+import MobileBannerTwo from "../../assets/images/HOMEPAGE/mobile/1 (2).jpg";
+import MobileBannerThree from "../../assets/images/HOMEPAGE/mobile/10.jpg";
+import MobileBannerFour from "../../assets/images/HOMEPAGE/mobile/11.jpg";
+import MobileBannerFive from "../../assets/images/HOMEPAGE/mobile/12.jpg";
+import MobileBannerSix from "../../assets/images/HOMEPAGE/mobile/13.jpg";
+import MobileBannerSeven from "../../assets/images/HOMEPAGE/mobile/14.jpg";
+import MobileBannerEight from "../../assets/images/HOMEPAGE/mobile/15.jpg";
+import MobileBannerNine from "../../assets/images/HOMEPAGE/mobile/16 (1).jpg";
+import MobileBannerTen from '../../assets/images/HOMEPAGE/mobile/2 (2).jpg'
+import MobileBannerEleven from '../../assets/images/HOMEPAGE/mobile/3 (1).jpg'
+import MobileBannerTwelve from '../../assets/images/HOMEPAGE/mobile/4 (2).jpg'
+import MobileBannerThirteen from '../../assets/images/HOMEPAGE/mobile/5.jpg'
+import MobileBannerFourteen from '../../assets/images/HOMEPAGE/mobile/6.jpg'
+import MobileBannerFifteen from '../../assets/images/HOMEPAGE/mobile/7.jpg'
+import MobileBannerSixteen from '../../assets/images/HOMEPAGE/mobile/8 (1).jpg'
+import MobileBannerSeventeen from '../../assets/images/HOMEPAGE/mobile/9.jpg'
 import MobileBannerEighteen from '../../assets/images/HOMEPAGE/mobile/climate-change.png'
 
 const VideoCarousel = () => {
