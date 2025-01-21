@@ -142,6 +142,6 @@ export default function AboutSection() {
           </a>
         </div> */}
       </div>
-    </div>
+    </div> 
   );
 }
