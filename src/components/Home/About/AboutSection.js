@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-// import Videosr from "../../../assets/images/Aboutus/your-video-source.mp4";
+import Videosr from "../../../assets/images/Aboutus/your-video-source.mp4";
 import MediaUpdate2 from "../../../assets/images/MediaUpdate/2.jpeg";
 import MediaUpdate3 from "../../../assets/images/MediaUpdate/3.jpeg";
 import MediaUpdate4 from "../../../assets/images/MediaUpdate/4.jpeg";
@@ -13,7 +13,7 @@ import Rightarrow from "../../../assets/images/MediaUpdate/rightarrow.png";
 import Nav from "react-bootstrap/Nav";
 
 // import Card from '../card/Card'
-// import ReactPlayer from "react-player";
+import ReactPlayer from "react-player";
 
 export default function AboutSection() {
   return (
