@@ -43,7 +43,7 @@ export default function AboutBox({ title, description, imageSrc, text,classNameU
                   controls={true}
               /> */
               <img src={imageSrc} alt='image Src'/>
-              }
+              
             }
                 
                     </div>
