@@ -51,17 +51,17 @@ export default function AboutSection() {
         </div>
       </div>
       <div className="video-box">
-        {/* <video controls autoPlay>
+        <video controls autoPlay>
               <source src={Videosr} type="video/mp4" />
-            </video> */}
-        {/* <ReactPlayer 
+            </video>
+        <ReactPlayer 
     url='https://icprd.org.in/ICPRDREVISED.mp4'
     playing={true} 
     loop={true} 
     controls={true}
-/> */}
+/> 
 
-        <div
+        {/* <div
           id="carousel-example-generic"
           class="carousel slide"
           data-ride="carousel"
@@ -140,7 +140,7 @@ export default function AboutSection() {
           >
             <img src={Rightarrow} alt="..." style={{ width: "50%" }} />
           </a>
-        </div>
+        </div> */}
       </div>
     </div>
   );
