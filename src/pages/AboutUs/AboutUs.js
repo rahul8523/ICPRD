@@ -74,11 +74,16 @@ export default function AboutUs() {
             <Navbar links={linksForAbout} className={"FromDeskOfPresidentPage"} />
             <Banner {...bannerDataForPage2} />
             <AboutBox
-                title="ABOUT US"
-                description="India Centre for Policy Research and Development (ICPRD) is India's prominent think tank on public policy and advocacy."
-                imageSrc={Videos02}
-                text="  It has been conceived as a premier institution of Indian intelligentsia for intellectual interactions on a wide spectrum of developmental issues and related matters guiding policy formulation in the country. ICPRD is devoted to policy research, advocacy and outreach with the expressed objective to make policy interventions in the best interest of the country for the wider public good. It aims to develop indigenous hyper-local solutions for policy challenges by holding discussions, coupled with effective implementation of strategies, to achieve rapid socio-economic development."
-            />
+  title="ABOUT US"
+  description="India Centre for Policy Research and Development (ICPRD) is India's prominent think tank on public policy and advocacy."
+  media={{
+    url: 'https://icprd.org.in/ICPRDREVISED.mp4',
+    playing: true,
+    loop: true,
+    controls: true,
+  }}
+  text="It has been conceived as a premier institution of Indian intelligentsia for intellectual interactions on a wide spectrum of developmental issues and related matters guiding policy formulation in the country. ICPRD is devoted to policy research, advocacy and outreach with the expressed objective to make policy interventions in the best interest of the country for the wider public good. It aims to develop indigenous hyper-local solutions for policy challenges by holding discussions, coupled with effective implementation of strategies, to achieve rapid socio-economic development."
+/>
             <AboutUsCard />
             <div className='about-text'>
                 <h2>

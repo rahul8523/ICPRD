@@ -3,7 +3,7 @@ import "./AboutBox.css";
 // import Videosr from "../../assets/images/Aboutus/your-video-source.mp4";
 // import ReactPlayer from "react-player";
 
-export default function AboutBox({ title, description, imageSrc, imageSroc, text,classNameUnique }) {
+export default function AboutBox({ title, description, imageSrc, text,classNameUnique }) {
     return (
         <div className={`${classNameUnique}`}>
             <div className="msg-container">
@@ -45,25 +45,6 @@ export default function AboutBox({ title, description, imageSrc, imageSroc, text
               <img src={imageSrc} alt='image Src'/>
               
             }
-            
-                
-                    </div>
-                </div>
-                     
-
-                }
-
-
-{imageSroc && <div className="profile">
-                    {/* <div className='profileImg'><img src={imageSrc} alt="" className='popimg'/></div> */}
-                    <div className="video-box">
-                      { <ReactPlayer 
-                  url='https://icprd.org.in/ICPRDREVISED.mp4'
-                  playing={true} 
-                  loop={true} 
-                  controls={true}
-              /> }
-            
                 
                     </div>
                 </div>
