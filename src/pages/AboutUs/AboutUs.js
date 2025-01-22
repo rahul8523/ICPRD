@@ -76,7 +76,7 @@ export default function AboutUs() {
             <AboutBox
                 title="ABOUT US"
                 description="India Centre for Policy Research and Development (ICPRD) is India's prominent think tank on public policy and advocacy."
-                media={{
+                imageVideo={{
                     url: 'https://icprd.org.in/ICPRDREVISED.mp4',
                     playing: true,
                     loop: true,
