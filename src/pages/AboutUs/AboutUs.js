@@ -6,9 +6,6 @@ import BannerVideos from '../../assets/images/Aboutus/BannerVideos.jpg'
 import AboutBox from '../../components/AboutBox/AboutBox';
 import AboutUsCard from '../../components/AboutUsCustomComponents/AboutUsCard';
 import Videos02 from "../../assets/images/Aboutus/Videos02.jpg"
-// import Videosr from "../../assets/images/Aboutus/your-video-source.mp4";
-import ReactPlayer from "react-player";
-
 import VisionVideoes from "../../assets/images/Aboutus/VisionVideos.png"
 import OurMissionVideos from "../../assets/images/Aboutus/OurMissionVideos.jpg"
 // import Timeline from '../../components/Timeline/Timeline';
@@ -79,13 +76,8 @@ export default function AboutUs() {
             <AboutBox
                 title="ABOUT US"
                 description="India Centre for Policy Research and Development (ICPRD) is India's prominent think tank on public policy and advocacy."
-                media={{
-                    url: 'https://icprd.org.in/ICPRDREVISED.mp4',
-                    playing: true,
-                    loop: true,
-                    controls: true,
-                }}
-                text="It has been conceived as a premier institution of Indian intelligentsia for intellectual interactions on a wide spectrum of developmental issues and related matters guiding policy formulation in the country. ICPRD is devoted to policy research, advocacy and outreach with the expressed objective to make policy interventions in the best interest of the country for the wider public good. It aims to develop indigenous hyper-local solutions for policy challenges by holding discussions, coupled with effective implementation of strategies, to achieve rapid socio-economic development."
+                imageSrc={Videos02}
+                text="  It has been conceived as a premier institution of Indian intelligentsia for intellectual interactions on a wide spectrum of developmental issues and related matters guiding policy formulation in the country. ICPRD is devoted to policy research, advocacy and outreach with the expressed objective to make policy interventions in the best interest of the country for the wider public good. It aims to develop indigenous hyper-local solutions for policy challenges by holding discussions, coupled with effective implementation of strategies, to achieve rapid socio-economic development."
             />
             <AboutUsCard />
             <div className='about-text'>
@@ -96,9 +88,9 @@ export default function AboutUs() {
                 <p>
 
 
-                    ICPRD is shaped by the vision of a committed team of renowned experts and intellectuals with deep insights and understanding of the current challenges and issues around the globe. It is capable of dealing with policy issues through extensive research, surveys and feedback from the grassroots. </p>
-                <p>  We are dedicated to the process of Nation Building and are geared up to contribute substantially and unreservedly in the national efforts to achieve the dream of 'Creating a New India' so as to usher the country into a new era of peace, progress and prosperity for all. </p>
-                <p> The dream is not far from reality, when ICPRD in association with the best minds of India, would make India the 'Vishwa Guru'.</p>
+                    ICPRD is shaped by the vision of a committed team of renowned experts and intellectuals with deep insights and understanding of the current challenges and issues around the globe. It is capable of dealing with policy issues through extensive research, surveys and feedback from the grassroots. </p> 
+                    <p>  We are dedicated to the process of Nation Building and are geared up to contribute substantially and unreservedly in the national efforts to achieve the dream of 'Creating a New India' so as to usher the country into a new era of peace, progress and prosperity for all. </p>
+                    <p> The dream is not far from reality, when ICPRD in association with the best minds of India, would make India the 'Vishwa Guru'.</p>
             </div>
             <AboutBox
                 title="Our Vision "
@@ -106,7 +98,7 @@ export default function AboutUs() {
                 text="Our vision is to be an integral part of the process of nation-building by facilitating the formation of desirable policies aimed at people's welfare. Promoting the holistic socio-economic growth of the county and transforming India in to a developed nation and Vishwa Guru (Global Leader) by 2047"
                 classNameUnique="vision-about"
             />
-            <AboutBox
+             <AboutBox
                 title="Our Mission "
                 imageSrc={OurMissionVideos}
                 text={["To contribute to the national socio-economic development policies and programmes to make them engendered, equitable, and for the public good",
@@ -117,11 +109,11 @@ export default function AboutUs() {
                     "To spread mass awareness on issues that matter the most, to ensure that the common people are at the center of the country's growth and development."]}
                 classNameUnique="mission-about"
             />
-
+         
             <SupportUs />
             <Footer />
-
-
+            
+           
         </div>
     )
 }
