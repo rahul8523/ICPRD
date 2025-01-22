@@ -4,6 +4,7 @@ import Navbar from '../../components/Navbar/Navbar';
 import Banner from '../../components/Banner/Banner';
 import BannerVideos from '../../assets/images/Aboutus/BannerVideos.jpg'
 import AboutBox from '../../components/AboutBox/AboutBox';
+import AboutBox from '../../components/AboutBox/AboutVideo';
 import AboutUsCard from '../../components/AboutUsCustomComponents/AboutUsCard';
 import Videos02 from "../../assets/images/Aboutus/Videos02.jpg"
 import VisionVideoes from "../../assets/images/Aboutus/VisionVideos.png"
@@ -70,10 +71,12 @@ export default function AboutUs() {
         subText: "Home / About Us"
     };
     return (
+        
         <div className='aboutUs'>
             <Navbar links={linksForAbout} className={"FromDeskOfPresidentPage"} />
             <Banner {...bannerDataForPage2} />
-            <AboutBox
+          
+            <AboutVideo
   title="ABOUT US"
   description="India Centre for Policy Research and Development (ICPRD) is India's prominent think tank on public policy and advocacy."
   media={{
