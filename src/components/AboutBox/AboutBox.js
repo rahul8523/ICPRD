@@ -19,21 +19,7 @@ export default function AboutBox({ title, description, imageSrc, media, text, cl
                         description && <p className='about'>{description}
                         </p>
                     }
-                    <div className="media-container">
-                        {/* Check if the media is a video or image */}
-                        {typeof media === 'string' ? (
-                            <img src={media} alt={title} />
-                        ) : (
-                            <ReactPlayer
-                                url={media.url}
-                                playing={media.playing}
-                                loop={media.loop}
-                                controls={media.controls}
-                                width="100%"
-                                height="auto"
-                            />
-                        )}
-                    </div>
+
 
                     {Array.isArray(text) ? (
                         <ul className='about'>
@@ -45,7 +31,21 @@ export default function AboutBox({ title, description, imageSrc, media, text, cl
                         {text}</p>
                     )}
 
+                    {typeof media === 'string' ? (
+                        <img src={media} alt={title} />
+                    ) : (
+                        <ReactPlayer
+                            url={media.url}
+                            playing={media.playing}
+                            loop={media.loop}
+                            controls={media.controls}
+                            width="100%"
+                            height="auto"
+                        />
+                    )}
+
                 </div>
+
 
                 {imageSrc && <div className="profile">
                     {/* <div className='profileImg'><img src={imageSrc} alt="" className='popimg'/></div> */}
