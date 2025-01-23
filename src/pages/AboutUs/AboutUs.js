@@ -5,7 +5,6 @@ import Banner from '../../components/Banner/Banner';
 import BannerVideos from '../../assets/images/Aboutus/BannerVideos.jpg'
 import AboutBox from '../../components/AboutBox/AboutBox';
 import AboutUsCard from '../../components/AboutUsCustomComponents/AboutUsCard';
-import Videosr from "./../../assets/images/Aboutus/your-video-source.mp4"
 import Videos02 from "../../assets/images/Aboutus/Videos02.jpg"
 import VisionVideoes from "../../assets/images/Aboutus/VisionVideos.png"
 import OurMissionVideos from "../../assets/images/Aboutus/OurMissionVideos.jpg"
@@ -75,9 +74,9 @@ export default function AboutUs() {
             <Navbar links={linksForAbout} className={"FromDeskOfPresidentPage"} />
             <Banner {...bannerDataForPage2} />
             <AboutBox
-                title="ABOUT US "
+                title="ABOUT US"
                 description="India Centre for Policy Research and Development (ICPRD) is India's prominent think tank on public policy and advocacy."
-                imageSrc={Videosr}
+                imageSrc={Videos02}
                 text="  It has been conceived as a premier institution of Indian intelligentsia for intellectual interactions on a wide spectrum of developmental issues and related matters guiding policy formulation in the country. ICPRD is devoted to policy research, advocacy and outreach with the expressed objective to make policy interventions in the best interest of the country for the wider public good. It aims to develop indigenous hyper-local solutions for policy challenges by holding discussions, coupled with effective implementation of strategies, to achieve rapid socio-economic development."
             />
             <AboutUsCard />
