@@ -36,14 +36,14 @@ export default function AboutBox({ title, description, imageSrc, text,classNameU
                 {imageSrc && <div className="profile">
                     {/* <div className='profileImg'><img src={imageSrc} alt="" className='popimg'/></div> */}
                     <div className="video-box">
-                      {  <ReactPlayer 
+                      {/* { <ReactPlayer 
                   url='https://icprd.org.in/ICPRDREVISED.mp4'
                   playing={true} 
                   loop={true} 
                   controls={true}
-              /> 
-            
-            //   <img src={imageSrc} alt='image Src'/>
+              /> */
+              <img src={imageSrc} alt='image Src'/>
+              
             }
                 
                     </div>
