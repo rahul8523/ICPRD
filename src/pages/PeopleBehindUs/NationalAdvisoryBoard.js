@@ -1,18 +1,18 @@
 import React from "react";
-// import Peoples from "../../assets/images/people/Laye.png";
+import VishwajeetKumar from "../../assets/images/people/group-captain-vishwajeet-kumar.jpg";
 import Peoples1 from "../../assets/images/event-details/NationalAdvisoryBoard/Dr.jpg";
 import Peoples2 from "../../assets/images/event-details/NationalAdvisoryBoard/Dr2.jpg";
 import Peoples3 from "../../assets/images/event-details/NationalAdvisoryBoard/Dr3.jpg";
-// import Peoples4 from "../../assets/images/event-details/NationalAdvisoryBoard/Dr4.jpg";
+import Arvind_Bellad_02 from "../../assets/images/event-details/NationalAdvisoryBoard/Arvind_Bellad_02.jpg";
 import Peoples5 from "../../assets/images/event-details/NationalAdvisoryBoard/Dr5.jpg";
 import Peoples6 from "../../assets/images/event-details/NationalAdvisoryBoard/Dr6.jpg";
 import RajeshSinha from "../../assets/images/event-details/NationalAdvisoryBoard/RajeshSinha.jpg";
-// import Peoples8 from "../../assets/images/event-details/NationalAdvisoryBoard/Dr8.jpg";
+import RakeshKShukla from "../../assets/images/event-details/NationalAdvisoryBoard/RakeshKShukla.jpg";
 import Poonam from "../../assets/images/PresidentsDesk/Poonam.jpeg";
 import Peoples9 from "../../assets/images/event-details/NationalAdvisoryBoard/Dr9.jpg";
-// import Peoples10 from "../../assets/images/event-details/NationalAdvisoryBoard/Banish-Dhar.jpeg";
+import ShyamJaju from "../../assets/images/event-details/NationalAdvisoryBoard/ShyamJaju.jpg";
 import Peoples11 from "../../assets/images/event-details/NationalAdvisoryBoard/Dr11.jpg";
-// import Peoples12 from "../../assets/images/event-details/NationalAdvisoryBoard/Dr12.jpg";
+import subodhtiwari from "../../assets/images/event-details/NationalAdvisoryBoard/subodhtiwari.jpg";
 // import Peoples13 from "../../assets/images/event-details/NationalAdvisoryBoard/Dr13.jpg";
 import NationalImage7 from "../../assets/images/event-details/NationalImage/Anil-Pandey.jpg";
 // import Peoples14 from "../../assets/images/event-details/NatyionalAdvisoryBoard/Dr14.jpg";
@@ -109,7 +109,7 @@ export default function NationalAdvisoryBoard() {
       </Col>
       <Col sm={6} md={3} className="pt-4">
         <Card className="box-sdow">
-          <Card.Img variant="top" src={Dummy} />
+          <Card.Img variant="top" src={ShyamJaju} />
           <Card.Body className="pb-0">
             <Card.Title>Shyam Jaju</Card.Title>
             <Card.Text className="m-0">(Ex. Vice President, BJP)</Card.Text>
@@ -188,9 +188,9 @@ export default function NationalAdvisoryBoard() {
 
       <Col sm={6} md={3} className="pt-4">
         <Card className="box-sdow">
-          <Card.Img variant="top" src={Dummy} />
+          <Card.Img variant="top" src={Arvind_Bellad_02} />
           <Card.Body className="pb-0">
-            <Card.Title> Arvind Belad </Card.Title>
+            <Card.Title> Arvind Bellad </Card.Title>
             <Card.Text className="m-0">(Social & Political Activist)</Card.Text>
           </Card.Body>
         </Card>
@@ -198,7 +198,7 @@ export default function NationalAdvisoryBoard() {
 
       <Col sm={6} md={3} className="pt-4">
         <Card className="box-sdow">
-          <Card.Img variant="top" src={Dummy} />
+          <Card.Img variant="top" src={subodhtiwari} />
           <Card.Body className="pb-0">
             <Card.Title>Subodh Tiwari	</Card.Title>
             <Card.Text className="m-0">(CEO, Kaivalyadham Yoga Institute)</Card.Text>
@@ -208,7 +208,7 @@ export default function NationalAdvisoryBoard() {
 
       <Col sm={6} md={3} className="pt-4">
         <Card className="box-sdow">
-          <Card.Img variant="top" src={Dummy} />
+          <Card.Img variant="top" src={RakeshKShukla} />
           <Card.Body className="pb-0">
             <Card.Title> Rakesh K. Shukla   </Card.Title>
             <Card.Text className="m-0">(Social & Political Activist)</Card.Text>
@@ -238,7 +238,7 @@ export default function NationalAdvisoryBoard() {
 
       <Col sm={6} md={3} className="pt-4">
         <Card className="box-sdow">
-          <Card.Img variant="top" src={Dummy} />
+          <Card.Img variant="top" src={VishwajeetKumar} />
           <Card.Body className="pb-0">
             <Card.Title>Group Captain Vishwajeet Kumar</Card.Title>
             <Card.Text className="m-0">(Aviation & Geo-Strategy Expert)</Card.Text>

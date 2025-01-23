@@ -1,5 +1,5 @@
 import React from "react";
-// import Faculty1 from "../../assets/images/event-details/Faculty/Rajeev-Mehrotra.jpg";
+import SujeetDubey from "../../assets/images/event-details/Faculty/SujeetDubey.jpg";
 // import Faculty2 from "../../assets/images/event-details/Faculty/B-letter.jpg";
 // import Faculty3 from "../../assets/images/event-details/Faculty/Rama-Raju.jpg";
 // import Faculty4 from "../../assets/images/event-details/Faculty/Harsh-M.A.(Global-Thought)-University-of-Columbia.jpg";
@@ -19,7 +19,7 @@ export default function Faculty() {
         <Row className="mt-5 doml justify-content-center">
         <Col sm={12} md={3}>
           <Card className="box-sdow">
-            <Card.Img variant="top" src={Dummy} />
+            <Card.Img variant="top" src={SujeetDubey} />
             <Card.Body className="pb-0">
               <Card.Title>Prof. Sujeet Dubey</Card.Title>
               <Card.Text className="m-0"> Patna University </Card.Text>
