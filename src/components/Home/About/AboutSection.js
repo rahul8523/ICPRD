@@ -54,12 +54,6 @@ export default function AboutSection() {
         <video controls autoPlay>
               <source src={Videosr} type="video/mp4" />
             </video>
-        <ReactPlayer 
-    url='https://icprd.org.in/ICPRDREVISED.mp4'
-    playing={true} 
-    loop={true} 
-    controls={true}
-/> 
 
         {/* <div
           id="carousel-example-generic"

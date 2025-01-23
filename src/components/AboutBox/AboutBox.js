@@ -55,14 +55,9 @@ export default function AboutBox({ title, description, imageSrc, imageVideo, tex
                 {imageVideo && <div className="profile">
 
                     <div className="video-box">
-                        {<ReactPlayer
-                            url='https://icprd.org.in/ICPRDREVISED.mp4'
-                            playing={true}
-                            loop={true}
-                            controls={true}
-                        />
-                        }
-
+                    <video controls autoPlay>
+              <source src="https://icprd.org.in/ICPRDREVISED.mp4" type="video/mp4" />
+            </video>
                     </div>
                 </div>
 
