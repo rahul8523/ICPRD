@@ -6,7 +6,7 @@ import Peoples3 from "../../assets/images/event-details/NationalAdvisoryBoard/Dr
 // import Peoples4 from "../../assets/images/event-details/NationalAdvisoryBoard/Dr4.jpg";
 import Peoples5 from "../../assets/images/event-details/NationalAdvisoryBoard/Dr5.jpg";
 import Peoples6 from "../../assets/images/event-details/NationalAdvisoryBoard/Dr6.jpg";
-// import Peoples7 from "../../assets/images/event-details/NationalAdvisoryBoard/Dr7.jpg";
+import RajeshSinha from "../../assets/images/event-details/NationalAdvisoryBoard/RajeshSinha.jpg";
 // import Peoples8 from "../../assets/images/event-details/NationalAdvisoryBoard/Dr8.jpg";
 import Poonam from "../../assets/images/PresidentsDesk/Poonam.jpeg";
 import Peoples9 from "../../assets/images/event-details/NationalAdvisoryBoard/Dr9.jpg";
@@ -39,15 +39,6 @@ export default function NationalAdvisoryBoard() {
     <Row className="mt-5 doml">
 
       
-      {/* <Col sm={6} md={3} className="pt-4">
-        <Card className="box-sdow">
-          <Card.Img variant="top" src={Peoples16} />
-          <Card.Body className="pb-0">
-            <Card.Title>Rajesh Sinha</Card.Title>
-            <Card.Text className="m-0">Financial Consultant</Card.Text>
-          </Card.Body>
-        </Card>
-      </Col> */}
 
       {/* <Col sm={6} md={3} className="pt-4">
         <Card className="box-sdow">
@@ -258,7 +249,7 @@ export default function NationalAdvisoryBoard() {
       
       <Col sm={6} md={3} className="pt-4">
         <Card className="box-sdow">
-          <Card.Img variant="top" src={Dummy} />
+          <Card.Img variant="top" src={RajeshSinha} />
           <Card.Body className="pb-0">
             <Card.Title>CA Rajesh Sinha</Card.Title>
             <Card.Text className="m-0">Finance Expert</Card.Text>

@@ -9,7 +9,8 @@ import NationalImage18 from "../../assets/images/event-details/NationalImage/Sye
 import NationalImage21 from "../../assets/images/event-details/NationalImage/Suresh-Nagar-Chaudhary.jpg";
 import NationalImage22 from "../../assets/images/event-details/NationalImage/Barkha-Solanki.jpg";
 import NationalImage26 from "../../assets/images/event-details/NationalImage/dinesh-bassi.jpg";
-import NationalImage28 from "../../assets/images/event-details/NationalImage/Raja-Kumar.jpg";
+import RajatKumarMishra from "../../assets/images/event-details/NationalImage/RajatKumarMishra.JPG";
+// import NationalImage28 from "../../assets/images/event-details/NationalImage/Raja-Kumar.jpg";
 import PratapRao from "../../assets/images/people/pratap.png";
 import Dummy from "../../assets/images/people/Dummy.jpg";
 
@@ -206,7 +207,7 @@ export default function NationalTeam() {
 
       <Col sm={6} md={3} className="pt-4">
         <Card className="box-sdow">
-          <Card.Img variant="top" src={Dummy} />
+          <Card.Img variant="top" src={RajatKumarMishra} />
           <Card.Body className="pb-0">
             <Card.Title>Rajat Kumar Mishra </Card.Title>
             <Card.Text className="m-0">(Senior Fellow Economic Affairs)</Card.Text>
@@ -338,15 +339,6 @@ export default function NationalTeam() {
         </Card>
       </Col> */}
 
-      {/* <Col sm={6} md={3} className="pt-4">
-        <Card className="box-sdow">
-          <Card.Img variant="top" src={Dummy} />
-          <Card.Body className="pb-0">
-            <Card.Title>CA Rajesh Sinha</Card.Title>
-            <Card.Text className="m-0">Finance Expert</Card.Text>
-          </Card.Body>
-        </Card>
-      </Col> */}
 
       {/* <Col sm={6} md={3} className="pt-4">
         <Card className="box-sdow">
