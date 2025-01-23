@@ -45,15 +45,12 @@ export default function AboutBox({ title, description, imageSrc, text,classNameU
               <img src={imageSrc} alt='image Src'/>
               
             }
-                
+
                     </div>
                 </div>
                      
-
                 }
                 
-
-
             </div>
         </div>
     );

@@ -163,7 +163,7 @@ export default function NationalTeam() {
         </Card>
       </Col>
 
-      <Col sm={6} md={3}>
+      <Col sm={6} md={3} className="pt-4">
         <Card className="box-sdow">
           <Card.Img variant="top" src={Dummy} />
           <Card.Body className="pb-0">
@@ -173,7 +173,7 @@ export default function NationalTeam() {
         </Card>
       </Col>
 
-      <Col sm={6} md={3} className="pt-4"  >
+      <Col sm={6} md={3} className="pt-4">
         <Card className="box-sdow">
           <Card.Img variant="top" src={Dummy} />
           <Card.Body className="pb-0">
@@ -234,7 +234,7 @@ export default function NationalTeam() {
         </Card>
       </Col>
 
-      <Col sm={6} md={3} className="pt-4">
+      {/* <Col sm={6} md={3} className="pt-4">
         <Card className="box-sdow">
           <Card.Img variant="top" src={NationalImage28} />
           <Card.Body className="pb-0">
@@ -242,7 +242,7 @@ export default function NationalTeam() {
             <Card.Text className="m-0">(Media)</Card.Text>
           </Card.Body>
         </Card>
-      </Col>
+      </Col> */}
 
       <Col sm={6} md={3} className="pt-4">
         <Card className="box-sdow">
