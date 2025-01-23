@@ -231,7 +231,7 @@ export default function NationalAdvisoryBoard() {
           <Card.Img variant="top" src={Dummy} />
           <Card.Body className="pb-0">
             <Card.Title>Mahesh Gupta</Card.Title>
-            <Card.Text className="m-0">(Chairman, Kent RO Systmes)</Card.Text>
+            <Card.Text className="m-0">(Chairman, Kent RO Systems)</Card.Text>
           </Card.Body>
         </Card>
       </Col>
