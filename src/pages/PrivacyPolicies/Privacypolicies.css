@@ -1,0 +1,33 @@
+/* .para{
+    text-align: center;
+} */
+.text-center{
+    text-align: center;
+}
+.pt-3{
+    padding-top: 2rem;
+}
+.py-5{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.pt-5{
+    padding-top: 4rem;
+}
+.w-20{
+    width:220px !important;
+}
+
+/* //MOBILE PHONE MEDIA QUERY CSS */
+/* //MOBILE PHONE MEDIA QUERY CSS */
+
+@media (max-width: 900px) and (min-width: 200px) {
+    .SupportUs p.para.text-center.pt-3 {
+        text-align: justify !important;
+    }
+    .SupportUs p.para{
+        text-align: justify !important;
+    }
+  }
+  /* //MOBILE PHONE MEDIA QUERY CSS */
+/* //MOBILE PHONE MEDIA QUERY CSS */

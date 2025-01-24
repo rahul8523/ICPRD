@@ -1,0 +1,32 @@
+.small{
+  font-size: 12px !important;
+}
+.smallText{
+  font-size: 12px !important;
+  font-weight: bold;
+}
+.CardSmall{
+  font-size: 20px;
+
+}
+.smaller{
+  font-size: 14px !important;
+
+  background: maroon;
+  padding: 3px 15px;
+  border-radius: 12px;
+  color: white;
+  width: 125px;
+
+}
+.CardSmall h6{
+  text-align: left;
+  font-size: 16px;
+}
+.smaller:hover{
+  color: #e9a303;
+}
+.boxShadow{
+  margin-bottom: 30px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}

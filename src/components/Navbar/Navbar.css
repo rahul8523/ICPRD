@@ -1,0 +1,312 @@
+/* Navbar.css */
+/* Normal navbar styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 10px 20px;
+    padding-top: 2rem;
+    z-index: 99999;
+
+  }
+  
+  .navbar-logo {
+    display: flex;
+    align-items: center;
+  }
+  .navbar-logo span {
+    padding-left: 0.7rem;
+    border-left: 2px solid #870f11;
+    height: fit-content;
+    font-weight: bold;
+    font-family: auto;
+    font-size: 0.8rem;
+    color: #870f11;
+    text-transform: uppercase;
+    text-align: left;
+  }
+  
+
+  
+  .navbar-menu {
+    display: flex;
+    list-style: none;
+    gap: 0rem;
+    position: relative;
+    margin: 0px;
+  }
+  
+  .navbar-menu li {
+    margin-right: 1px;
+    position: relative;
+    cursor: pointer;
+  }
+  .navbar-menu a:hover{
+    background:#f5b704;
+    color: black;
+  }
+  
+  .navbar-menu a {
+    text-decoration: none;
+    display: block;
+    line-height: 30px;
+    color: white;
+    font-weight: 600;
+    padding: 0px 6px;
+    background: #03bdbe;
+    text-transform: uppercase;
+    font-size: 13px;
+    
+  }
+  
+  /* .FromDeskOfPresidentPage{
+    gap: 6rem  ;
+    padding-top: 0rem;
+    padding: 2rem 20px;
+  }
+  .FromDeskOfPresidentPage ul{
+    flex: 1;
+    justify-content: space-between;
+  }
+  
+  .FromDeskOfPresidentPage .navbar-menu a{
+  color: black;
+  font-weight: 500;
+  font-size: 0.9rem;
+  } */
+  
+  /* Navbar.css */
+  /* ... Existing CSS */
+  
+  .navbar-item {
+    position: relative;
+  }
+  
+  .submenu {
+    z-index: 90;
+    width: 200px;
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: none;
+    list-style: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 0;
+    margin: 0;
+    
+  }
+  .submenu li{
+    /* padding: 7px; */
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0;
+    background: #00b5e2;
+    margin: 2px 0;
+  
+   }
+  
+   .submenu li a{
+    padding: 7px;
+    display: block;
+    color: #fafafa;
+    padding: 2px 8px;
+    line-height: 18px;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    position: relative;
+    font-size: 14px;
+    border: 0;
+    padding-bottom: 0;
+    text-align: left;
+   }
+  
+   .submenu li:hover{
+    background-color: #000;
+   }
+  
+   .navbar-menu li:hover  .submenu {
+    display: block;
+  }
+
+  .navbar-hamburger {
+    display: none;
+  }
+  
+  @media (max-width: 1600px) and (min-width: 1400px) {
+    .navbar-menu a{
+      font-size: 13px;
+    }
+  }
+
+  /* Hamburger menu styles for small screens */
+  @media screen and (max-width: 1000px) {
+    .navbar{
+      justify-content: space-between;
+    }
+
+
+    .navbar-menu {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 80px;
+      right: 0;
+      background-color: #fff;
+      z-index: 1;
+    }
+  
+    .navbar-menu li {
+      
+      position:unset;
+      
+    }
+  
+    .navbar-menu.active {
+      display: flex;
+      width: 300px;
+      top: 0px;
+      height: 100vh;
+      padding-top: 4rem;
+      position: fixed;
+      z-index: 50;
+      text-align: left;
+      justify-content: unset;
+    }
+  
+    .navbar-menu li {
+      margin: 2px 20px;
+      cursor: pointer;
+    }
+    .submenu li a{
+      font-weight: normal;
+    }
+    .navbar-menu li:hover{
+      filter: brightness(150%);
+    }
+    .navbar-menu li:hover .submenu{
+      background: black;
+    }
+  
+    .navbar-hamburger {
+      display: flex;
+      flex-direction: column;
+      cursor: pointer;
+      z-index: 100;
+      color: black;
+    }
+  
+    .bar {
+      width: 25px;
+      height: 3px;
+      background-color: #000;
+      margin: 3px 0;
+    }
+  
+    .bar.open {
+      transform: rotate(-45deg) translate(-5px, 5px);
+    }
+    
+    /* Styles for the cross icon when the menu is open */
+  /* .bar.open {
+    transform: rotate(45deg);
+  } */
+  
+  .bar.open:first-child {
+    transform: rotate(45deg);
+    transform-origin: 10% 10%;
+  }
+  
+  .bar.open:nth-child(2) {
+    display: none;
+  }
+  
+  .bar.open:last-child {
+    transform: rotate(-45deg);
+    transform-origin: 10% 90%;
+  }
+  }
+  .dmobj{
+    display: none;
+  }
+  @media screen and (max-width: 900px) {
+ 
+.dmobj{
+  display: block;
+}
+.dmobj{
+  position: relative;
+  transform: translate(0px, 13px);
+  right: 0;
+  top: 0;
+}
+  }
+  @media screen and (min-width: 1200px) {
+    .d-mate{
+      display: none;
+    }
+
+
+  }
+
+  @media (max-width:1200px) and (min-width:200px) {
+    .navbar-logo img {
+      width:200px;
+      object-fit: contain;
+      margin-right: 10px;
+    }
+    .datetester{
+      top: 35px !important;
+    }
+    .datetester img{
+      width: 50px !important;
+    }
+    }
+  @media (max-width:3000px) and (min-width:1200px) {
+  .navbar-logo img {
+    width:350px;
+    object-fit: contain;
+    margin-right: 10px;
+  }
+  }
+/* //MOBILE PHONE MEDIA QUERY CSS */
+/* //MOBILE PHONE MEDIA QUERY CSS */
+
+  @media (max-width:1000px) and (min-width: 200px) {
+    .navbar-logo img {
+      width: 200px;
+}
+
+.submenu li{
+  border-bottom: 1px solid lightgray;
+}
+.navbar-menu li:hover .submenu {
+  background: #03bdbe;
+}
+
+  }
+
+  /* //MOBILE PHONE MEDIA QUERY CSS */
+/* //MOBILE PHONE MEDIA QUERY CSS */
+
+
+  .datetime{
+    margin-bottom: 0;
+    background: #ebaa01;
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+    width: auto;
+    float: right;
+    padding: 0 5px;
+    margin-top: 1px;
+    margin-bottom: 3px;
+  }
+  .datetester{
+    position: absolute;
+    transform: translate(0px, -88px);
+    right: 0;
+    top: 0;
+  }

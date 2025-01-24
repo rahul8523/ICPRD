@@ -1,0 +1,69 @@
+/* CSS for the Banner component */
+.banner {
+    background-size: cover;
+    background-position: top;
+    height: 400px; /* Adjust the height as needed */
+    color: #fff;
+    position: relative;
+    font-family: "Optima";
+    height: 65vh;
+  }
+  
+  .banner-text {
+    position: absolute;
+    bottom: 20px;
+    left: 40px;
+    
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+  .banner-text p:first-child{
+    font-size: 2.5rem;
+    font-weight: bold;
+    line-height: 65px;
+    margin-bottom: 0px;
+  }
+
+  .banner-text p:nth-child(2){
+    font-weight: 600;
+    margin-top: 5px;
+    color: #ebaa01;
+    
+  }
+  
+
+  @media screen and (max-width: 1000px) {
+    .banner{
+      background-position: right;
+    }
+  }
+
+/* //MOBILE PHONE MEDIA QUERY CSS */
+/* //MOBILE PHONE MEDIA QUERY CSS */
+
+  @media (max-width: 900px) and (min-width: 200px) {
+    .banner {
+      height: 20vh;
+}
+.banner-text p:first-child {
+  font-size: 25px;
+  line-height: 30px;
+}
+.org-address2 {
+  padding: 3rem 0rem 0rem 4rem;
+  text-align: left;
+}
+.org-details {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+.org-address {
+  text-align: left;
+}
+.footer {
+  width: 96%;
+}
+  }
+  /* //MOBILE PHONE MEDIA QUERY CSS */
+/* //MOBILE PHONE MEDIA QUERY CSS */
