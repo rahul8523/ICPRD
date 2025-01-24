@@ -40,6 +40,7 @@ export default function EducationAndTraining() {
                 { text: 'News', url: '/news' },
                 { text: 'Article', url: '/research-articles' },
                 { text: 'Blog', url: '/blog' },
+                { text: 'Gallery', url: '/gallery' }
             ],
         },
         { text: 'Event', url: '/event' },

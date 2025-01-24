@@ -44,6 +44,7 @@ export default function Post7({ Date, titles }) {
                 { text: 'News', url: '/news' },
                 { text: 'Article', url: '/research-articles' },
                 { text: 'Blog', url: '/blog' },
+                { text: 'Gallery', url: '/gallery' }
             ],
         },
         { text: "Event", url: "/event" },
