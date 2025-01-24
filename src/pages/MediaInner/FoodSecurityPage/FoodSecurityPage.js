@@ -35,7 +35,17 @@ export default function FoodSecurityPage() {
         },
         { text: 'Resources' },
         { text: 'Event' },
-        { text: 'Media' },
+        {
+            text: 'Media',
+            dropdown: true,
+            dropdownOptions: [
+                { text: 'Media Report', url: '' },
+                { text: 'News', url: '/news' },
+                { text: 'Article', url: '/research-articles' },
+                { text: 'Blog', url: '/blog' },
+                { text: 'Gallery', url: '/gallery' }
+            ],
+        },
         { text: "Connect With Us", url: "/contact"},
         // ... other links
     ];

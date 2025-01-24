@@ -50,6 +50,8 @@ export default function Home() {
                 { text: 'News', url: '/news' },
                 { text: 'Article', url: '/research-articles' },
                 { text: 'Blog', url: '/blog' },
+                { text: 'Gallery', url: '/gallery' }
+
             ],
         },
         { text: 'Event', url: '/event' },
@@ -71,9 +73,9 @@ export default function Home() {
         <div className="home">
             <div className='main'>
                 <Navbar links={linksForHome} />
-                <VideoCarousel/>
+                <VideoCarousel />
                 <div className="header-image-container">
-     
+
                     <div className="scroll-indicator">
                         <div>
                             Scroll to down to <br /> begin <br /> <span><i className="ri-arrow-left-s-line"></i></span>
@@ -83,22 +85,22 @@ export default function Home() {
 
                 </div>
             </div>
-             <section style={{marginTop:"-2px"}}>
+            <section style={{ marginTop: "-2px" }}>
                 <div className="header-content">
                     <h1>INDIA CENTRE FOR POLICY RESEARCH & DEVELOPMENT [ICPRD]</h1>
                     <AboutSection />
                 </div>
             </section>
             <Verticals />
-            <SupportUsHome/>
+            <SupportUsHome />
             <Features />
             <Dignitaries />
-            <Events/>
+            <Events />
             <Tabs />
             <VideoSection />
-            
-            <Footer/>
-           
+
+            <Footer />
+
         </div>
     )
 }
