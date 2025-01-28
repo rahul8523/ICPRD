@@ -87,6 +87,8 @@ const Gallery = () => {
         text: "Gallery",
         subText: "Home / Gallery",
     };
+
+    // Console.log("Hello world")
     // Images data here
     const galleryImages = [
         { id: 1, img: BannerTwo, altTag: '' },
