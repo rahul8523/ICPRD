@@ -1,11 +1,10 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Navbar from '../../components/Navbar/Navbar';
 import VideoCarousel from '../Home/VideoCarousel';
 import Banner from "../../components/Banner/Banner";
 import BannereconomicPolicy from "../../assets/images/people/people.png";
 import Container from 'react-bootstrap/esm/Container';
-import Row from 'react-bootstrap/esm/Row';
-import Col from 'react-bootstrap/esm/Col';
+import { Modal, Button, Row, Col } from "react-bootstrap"; 
 // Images import here
 import BannerTwo from '../../assets/images/HOMEPAGE/banner2.jpg';
 import BannerThree from '../../assets/images/HOMEPAGE/banner3.jpg';
@@ -25,6 +24,10 @@ import BannerSixteen from '../../assets/images/HOMEPAGE/BannerEighteen.jpg'
 import BannerSeventeen from '../../assets/images/HOMEPAGE/BannerNineteen.jpg'
 
 const Gallery = () => {
+
+
+    const [showModal, setShowModal] = useState(false);
+    const [selectedImage, setSelectedImage] = useState(null);
 
     const linksForHome = [
         { text: 'Home', url: '/' },
@@ -102,11 +105,16 @@ const Gallery = () => {
         { id: 14, img: BannerFifteen, altTag: '' },
         { id: 15, img: BannerSixteen, altTag: '' },
         { id: 16, img: BannerSeventeen, altTag: '' },
-        { id: 17, img: BannerFive, altTag: '' },
-        { id: 18, img: BannerFive, altTag: '' },
-        { id: 19, img: BannerFive, altTag: '' },
-        { id: 20, img: BannerFive, altTag: '' }
     ]
+
+    const handleImageClick = (image) => {
+        setSelectedImage(image);
+        setShowModal(true);
+    };
+
+    const handleCloseModal = () => {
+        setShowModal(false);
+    };
     return (
         <>
             <div className="home">
@@ -120,10 +128,25 @@ const Gallery = () => {
                     <Row className="d-flex justify-content-center align-items-center">
                         {galleryImages.map((item, index) => (
                             <Col key={index} lg={3} md={6} sm={12} className="mb-4">
-                                <img src={item.img} alt={item.altTag} className="img-fluid" />
+                                <img onClick={() => handleImageClick(item.img)} src={item.img} alt={item.altTag} className="img-fluid" />
                             </Col>
                         ))}
                     </Row>
+                    {/* Modal */}
+                    <Modal closeButton show={showModal} onHide={handleCloseModal} centered>
+                        {/* <Modal.Header closeButton> 
+                        </Modal.Header> */}
+                        <Modal.Body>
+                            {selectedImage && (
+                                <img src={selectedImage} alt="Selected" className="w-100" />
+                            )}
+                        </Modal.Body>
+                        {/* <Modal.Footer>
+                            <Button  onClick={handleCloseModal}>
+                                Close
+                            </Button>
+                        </Modal.Footer> */}
+                    </Modal>
                 </div>
 
 
