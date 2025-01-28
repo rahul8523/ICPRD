@@ -38,7 +38,7 @@ export default function NationalAdvisoryBoard() {
   return (
     <Row className="mt-5 doml">
 
-      
+
 
       {/* <Col sm={6} md={3} className="pt-4">
         <Card className="box-sdow">
@@ -77,36 +77,12 @@ export default function NationalAdvisoryBoard() {
           <Card.Body className="pb-0">
             <Card.Title>Prof. Rita Bahuguna Joshi</Card.Title>
             <Card.Text className="m-0">
-               (Ex. member of Parliament)
+              (Ex. member of Parliament)
             </Card.Text>
           </Card.Body>
         </Card>
       </Col>
 
-
-      <Col sm={6} md={3} className="pt-4">
-        <Card className="box-sdow">
-          <Card.Img variant="top" src={rnsingh} />
-          <Card.Body className="pb-0">
-            <Card.Title>Padma Shri Dr. R. N. Singh</Card.Title>
-            <Card.Text className="m-0">
-               (MBBS, MS. Orth. FRCS)
-            </Card.Text>
-          </Card.Body>
-        </Card>
-      </Col>
-
-      <Col sm={6} md={3} className="pt-4">
-        <Card className="box-sdow">
-          <Card.Img variant="top" src={Peoples9} />
-          <Card.Body className="pb-0">
-            <Card.Title>Prof. Chandramauli Upadhyay</Card.Title>
-            <Card.Text className="m-0">
-            (Banaras Hindu University)
-            </Card.Text>
-          </Card.Body>
-        </Card>
-      </Col>
       <Col sm={6} md={3} className="pt-4">
         <Card className="box-sdow">
           <Card.Img variant="top" src={ShyamJaju} />
@@ -115,7 +91,7 @@ export default function NationalAdvisoryBoard() {
             <Card.Text className="m-0">(Ex. Vice President, BJP)</Card.Text>
           </Card.Body>
         </Card>
-      </Col> 
+      </Col>
 
       <Col sm={6} md={3} className="pt-4">
         <Card className="box-sdow">
@@ -130,11 +106,39 @@ export default function NationalAdvisoryBoard() {
 
       <Col sm={6} md={3} className="pt-4">
         <Card className="box-sdow">
+          <Card.Img variant="top" src={rnsingh} />
+          <Card.Body className="pb-0">
+            <Card.Title>Padma Shri Dr. R. N. Singh</Card.Title>
+            <Card.Text className="m-0">
+              (MBBS, MS. Orth. FRCS)
+            </Card.Text>
+          </Card.Body>
+        </Card>
+      </Col>
+
+      <Col sm={6} md={3} className="pt-4">
+        <Card className="box-sdow">
+          <Card.Img variant="top" src={Peoples9} />
+          <Card.Body className="pb-0">
+            <Card.Title>Prof. Chandramauli Upadhyay</Card.Title>
+            <Card.Text className="m-0">
+              (Banaras Hindu University)
+            </Card.Text>
+          </Card.Body>
+        </Card>
+      </Col>
+
+
+
+
+
+      <Col sm={6} md={3} className="pt-4">
+        <Card className="box-sdow">
           <Card.Img variant="top" src={Shantanu} />
           <Card.Body className="pb-0">
             <Card.Title>Lt. Gen. Shantanu Dayal</Card.Title>
             <Card.Text className="m-0">
-            (UYSM, AVSM, SM, VSM)
+              (UYSM, AVSM, SM, VSM)
             </Card.Text>
           </Card.Body>
         </Card>
@@ -146,7 +150,7 @@ export default function NationalAdvisoryBoard() {
           <Card.Body className="pb-0">
             <Card.Title>Dr. S K Verma</Card.Title>
             <Card.Text className="m-0">
-            (Senior Advocate, Supreme Court of India)
+              (Senior Advocate, Supreme Court of India)
             </Card.Text>
           </Card.Body>
         </Card>
@@ -158,7 +162,7 @@ export default function NationalAdvisoryBoard() {
           <Card.Body className="pb-0">
             <Card.Title>Dr. Khwaja Iftikhar Ahmed</Card.Title>
             <Card.Text className="m-0">
-            (Prominent Islamic Scholar)
+              (Prominent Islamic Scholar)
             </Card.Text>
           </Card.Body>
         </Card>
@@ -246,7 +250,7 @@ export default function NationalAdvisoryBoard() {
         </Card>
       </Col>
 
-      
+
       <Col sm={6} md={3} className="pt-4">
         <Card className="box-sdow">
           <Card.Img variant="top" src={RajeshSinha} />
@@ -258,7 +262,7 @@ export default function NationalAdvisoryBoard() {
       </Col>
 
 
-     <Col sm={6} md={3} className="pt-4">
+      <Col sm={6} md={3} className="pt-4">
         <Card className="box-sdow">
           <Card.Img variant="top" src={NationalImage7} />
           <Card.Body className="pb-0">
@@ -314,7 +318,7 @@ export default function NationalAdvisoryBoard() {
       </Col> */}
 
 
-    
+
 
       {/* <Col sm={6} md={3} className="pt-4">
         <Card className="box-sdow">
@@ -344,14 +348,14 @@ export default function NationalAdvisoryBoard() {
 
 
 
-      
 
 
 
-    
 
 
-     
+
+
+
 
       {/* <Col sm={6} md={3} className="pt-4">
         <Card className="box-sdow">
@@ -363,7 +367,7 @@ export default function NationalAdvisoryBoard() {
         </Card>
       </Col> */}
 
-     
+
 
       {/* <Col sm={6} md={3} className="pt-4">
         <Card className="box-sdow">
@@ -375,9 +379,9 @@ export default function NationalAdvisoryBoard() {
         </Card>
       </Col> */}
 
-   
 
-     
+
+
 
       {/* <Col sm={6} md={3} className="pt-4">
         <Card className="box-sdow">
@@ -411,7 +415,7 @@ export default function NationalAdvisoryBoard() {
         </Card>
       </Col> */}
 
-     
+
 
       {/* <Col sm={6} md={3} className="pt-4">
         <Card className="box-sdow">
@@ -423,7 +427,7 @@ export default function NationalAdvisoryBoard() {
         </Card>
       </Col> */}
 
-      
+
       {/* <Col sm={6} md={3} className="pt-4">
         <Card className="box-sdow">
           <Card.Img variant="top" src={Peoples12} />
@@ -528,7 +532,7 @@ export default function NationalAdvisoryBoard() {
           </Card.Body>
         </Card>
       </Col> */}
-      
+
 
       {/* <Col sm={6} md={3} className="pt-4">
         <Card className="box-sdow">

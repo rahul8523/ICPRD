@@ -45,7 +45,7 @@ export default function Dignitaries() {
                         </div>
                         <div className="profile">
                             <div className='profileImg'><img src={Gurudev} alt="" /></div>
-                            <div className='profileName'><h2>Sri Sri Ravi Shankar </h2></div>
+                            <div className='profileName'><h2>H.H. Sri Sri Ravi Shankar</h2></div>
                         </div>
                         <div className="img-container" onClick={handleImgContainerClick}>
                             <div className="img"><img src={Documentslider} alt="" /></div>

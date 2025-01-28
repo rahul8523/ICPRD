@@ -1,23 +1,13 @@
 // Import React and CSS
 import React, { useEffect, useRef } from "react";
 import "./Carousel.css"; // Ensure you have the CSS file in the same directory
-import BannerOne from '../../assets/images/HOMEPAGE/climate-change.jpg';
-import BannerTwo from '../../assets/images/HOMEPAGE/banner2.jpg';
-import BannerThree from '../../assets/images/HOMEPAGE/banner3.jpg';
-import BannerFour from '../../assets/images/HOMEPAGE/banner4.jpg';
-import BannerFive from '../../assets/images/HOMEPAGE/climate-change.jpg';
-import BannerSix from '../../assets/images/HOMEPAGE/banner2.jpg';
-import BannerSeven from '../../assets/images/HOMEPAGE/Banner7.jpg';
-import BannerEight from '../../assets/images/HOMEPAGE/Banner9.jpg';
-import BannerNine from '../../assets/images/HOMEPAGE/BannerThirteen.jpg';
-import BannerTen from '../../assets/images/HOMEPAGE/BannerEleven.jpg';
-import BannerEleven from '../../assets/images/HOMEPAGE/BannerTwelve.jpg'
-import BannerTwelve from '../../assets/images/HOMEPAGE/BannerFourteen.jpg'
-import BannerThirteen from '../../assets/images/HOMEPAGE/BannerFifteen.jpg'
-import BannerFourteen from '../../assets/images/HOMEPAGE/BannerSixteen.jpg'
-import BannerFifteen from '../../assets/images/HOMEPAGE/BannerSeventeen.jpg'
-import BannerSixteen from '../../assets/images/HOMEPAGE/BannerEighteen.jpg'
-import BannerSeventeen from '../../assets/images/HOMEPAGE/BannerNineteen.jpg'
+import BannerOne from '../../assets/images/updated-banner/bannerOne.jpg';
+import BannerTwo from '../../assets/images/updated-banner/bannerTwor.jpg';
+import BannerThree from '../../assets/images/updated-banner/bannerThree.jpg';
+import BannerFour from '../../assets/images/updated-banner/bannerFour.jpg';
+import BannerFive from '../../assets/images/updated-banner/bannerFive.jpg';
+import BannerSix from '../../assets/images/updated-banner/bannerSix.jpg';
+import BannerSeven from '../../assets/images/updated-banner/bannerSeven.jpg';
 import Map from '../../components/Home/Map/Map';
 
 
@@ -29,16 +19,7 @@ import MobileBannerFour from "../../assets/images/HOMEPAGE/mobile/11.jpg";
 import MobileBannerFive from "../../assets/images/HOMEPAGE/mobile/12.jpg";
 import MobileBannerSix from "../../assets/images/HOMEPAGE/mobile/13.jpg";
 import MobileBannerSeven from "../../assets/images/HOMEPAGE/mobile/14.jpg";
-import MobileBannerEight from "../../assets/images/HOMEPAGE/mobile/16 (1).jpg";
-import MobileBannerNine from '../../assets/images/HOMEPAGE/mobile/2 (2).jpg'
-import MobileBannerTen from '../../assets/images/HOMEPAGE/mobile/3 (1).jpg'
-import MobileBannerEleven from '../../assets/images/HOMEPAGE/mobile/4 (2).jpg'
-import MobileBannerTwelve from '../../assets/images/HOMEPAGE/mobile/5.jpg'
-import MobileBannerThirteen from '../../assets/images/HOMEPAGE/mobile/6.jpg'
-import MobileBannerFourteen from '../../assets/images/HOMEPAGE/mobile/7.jpg'
-import MobileBannerFifteen from '../../assets/images/HOMEPAGE/mobile/8 (1).jpg'
-import MobileBannerSixteen from '../../assets/images/HOMEPAGE/mobile/9.jpg'
-import MobileBannerSeventeen from '../../assets/images/HOMEPAGE/mobile/climate-change.png'
+
 
 const VideoCarousel = () => {
   const carouselRef = useRef(null);
@@ -68,27 +49,7 @@ const VideoCarousel = () => {
       case 6:
         return isMobile ? MobileBannerSix : BannerSix;
       case 7:
-        return isMobile ? MobileBannerSeven : BannerSeven;
-      case 8:
-        return isMobile ? MobileBannerEight : BannerEight;
-      case 9:
-        return isMobile ? MobileBannerNine : BannerNine;
-      case 10:
-        return isMobile ? MobileBannerTen : BannerTen;
-      case 11:
-        return isMobile ? MobileBannerEleven : BannerEleven;
-      case 12:
-        return isMobile ? MobileBannerTwelve : BannerTwelve;
-      case 13:
-        return isMobile ? MobileBannerThirteen : BannerThirteen;
-      case 14:
-        return isMobile ? MobileBannerFourteen : BannerFourteen;
-      case 15:
-        return isMobile ? MobileBannerFifteen : BannerFifteen;
-      case 16:
-        return isMobile ? MobileBannerSixteen : BannerSixteen;
-      case 17:
-        return isMobile ? MobileBannerSeventeen : BannerSeventeen;
+        return isMobile ? MobileBannerSeven : BannerSeven; 
       default:
         return isMobile ? MobileBannerOne : BannerOne;
     }
@@ -104,16 +65,6 @@ const VideoCarousel = () => {
     { id: 5 },
     { id: 6 },
     { id: 7 },
-    { id: 8 },
-    { id: 9 },
-    { id: 10 },
-    { id: 11 },
-    { id: 12 },
-    { id: 13 },
-    { id: 14 },
-    { id: 15 },
-    { id: 16 },
-    { id: 17 }
   ];
 
   // Reset animation for progress bar
